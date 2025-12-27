@@ -18,6 +18,38 @@ schema_type: "Article"
 
 ---
 
+## What the Research Shows
+
+### Gender Differences in Spinal Mobility (2024)
+
+A 2024 study using upright CT imaging found that **females showed significantly larger changes in sacral slope and pelvic tilt** when transitioning from standing to sitting (p = .044, p = .038). Among elderly participants, females showed significantly larger decreases in lordotic angle compared to males ([Scientific Reports - Nature](https://www.nature.com/articles/s41598-024-59840-8)).
+
+### Biomechanical Posture Analysis (2024)
+
+Research examining 200 healthy individuals found distinct sex differences in posture:
+- **Shoulder adduction angle:** Men 16.1° ± 1.9°, Women 14.1° ± 1.5° (Cohen's d = 1.14)
+- **Hip adduction angle:** Men 9.9° ± 2.2°, Women 6.7° ± 1.5° (Cohen's d = 1.67)
+
+([MDPI Sensors](https://www.mdpi.com/1424-8220/24/9/2929))
+
+### Q-Angle Research
+
+The Q angle in women is **6° to 8° greater than in men** because of women's wider pelvis, increased femoral anteversion, and relative knee valgus angle. The normative value is considered 13.5° (± 4.5°) for healthy individuals between 18-35 years ([Physiopedia](https://www.physio-pedia.com/Biomechanics_of_the_Hip)).
+
+### Center of Gravity
+
+The center of gravity is slightly lower in women because they have a rounder, broader pelvis. Women also have smaller bones and joint articular surfaces. The pelvis and spine constitute a system balancing the human skeleton, with the pelvis compensating for age-related changes in the vertebral column ([PMC Pelvimetry Study](https://pmc.ncbi.nlm.nih.gov/articles/PMC5768563/)).
+
+### Prepubescent Gender Differences
+
+A study found that within neutral and sway-back postural subgroups, boys presented more forward trunk inclination and thoracic kyphosis compared with girls. Within leaning-forward categories, girls displayed more forward trunk lean, less thoracic kyphosis, and more pelvic anteversion—suggesting **gender-related differences in lever arms and load distribution** ([PMC Study](https://ncbi.nlm.nih.gov/pmc/articles/PMC3842204)).
+
+### Women in Running Biomechanics
+
+Starting at puberty, sex hormones create distinct differences: women typically have a broader pelvis, femoral anteversion (inward twisting of the femur), genu valgum (knees touch but ankles stand apart), and external tibial torsion—making women **biomechanically distinct from men when running** and during other activities ([Lower Extremity Review Magazine](https://lermagazine.com/cover_story/practical-matter-for-clinicians-women-are-biomechanically-distinct-from-men-when-they-run)).
+
+---
+
 ## Key Anatomical Differences
 
 ### Center of Gravity

@@ -18,6 +18,26 @@ schema_type: "Article"
 
 ---
 
+## What the Research Shows
+
+### Clinical Evidence on Breast Size and Back Pain
+
+A 2025 cross-sectional study found striking results: **Back pain prevalence increased with breast size: only 4.9% of B cup participants reported backache, compared to 85% of DD/E cup participants.** Pain scores (VAS) rose from 0.3 ± 1.6 (B cup) to 6.0 ± 2.9 (DD/E cup). Each 1 cm increase in band length raised the odds of back pain by 19.8%, while large cup size was associated with up to **12-fold increased odds of pain** ([PMC Study](https://pmc.ncbi.nlm.nih.gov/articles/PMC12388340/)).
+
+Research from 2024 confirmed that **cup size significantly affects thoracic kyphotic angle** (p = 0.027), with kyphosis increasing as cup size increases. Larger breast size is associated with habitually flexed posture and greater upper back pain ([PMC Study](https://pmc.ncbi.nlm.nih.gov/articles/PMC11035396/)).
+
+A 2019 study found that women with hypertrophic breasts (>1200 mL volume) report higher levels of musculoskeletal pain across the upper torso, including upper and lower back, shoulders, and neck. Symptoms were most pronounced in women with the greatest thoracic flexion torque ([PubMed](https://pubmed.ncbi.nlm.nih.gov/30817639/)).
+
+### Bra Fit Findings
+
+A 2008 study examining breast size and bra fit found **80% of participants were wearing the incorrect bra size**, and women with larger breasts were more likely to wear an incorrect size ([PMC Study](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3704920/)).
+
+### Treatment Outcomes
+
+Reduction mammaplasty has demonstrated significant improvements in pain, posture, and physical function. Studies report substantial reduction in shoulder grooving, back and neck pain with a mean reduction of 2.6 cup sizes in symptomatic women post-surgery ([Healthline Summary](https://www.healthline.com/health/breasts-and-upper-back-pain)).
+
+---
+
 ## How Breast Size Affects Posture
 
 ### The Weight Factor

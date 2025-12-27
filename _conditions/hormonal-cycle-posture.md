@@ -27,18 +27,40 @@ schema_type: "Article"
 - Influences muscle strength and recovery
 - Impacts pain sensitivity
 - Levels fluctuate significantly throughout cycle
+- Research shows estradiol decreases collagen formation in tendons following exercise ([PMC Study](https://pmc.ncbi.nlm.nih.gov/articles/PMC6744937/))
 
 **Progesterone:**
 - Affects breathing and core stability
 - Influences body temperature
 - Can affect coordination
 - Rises significantly in luteal phase
+- Fluctuations linked to greater joint laxity in women
 
 **Relaxin:**
 - Present in small amounts throughout cycle
-- Increases ligament laxity
-- Higher during menstruation for some women
+- Peaks during the luteal phase of the menstrual cycle ([Frontiers in Endocrinology](https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2022.827512/full))
+- Activates collagenase and affects tendon/ligament properties ([PMC Review](https://pmc.ncbi.nlm.nih.gov/articles/PMC4282454/))
+- Relaxin receptors are present on female ACLs but not male ACLs—impacts only female ligament tissue ([PMC ACL Study](https://pmc.ncbi.nlm.nih.gov/articles/PMC11195904/))
 - Dramatically higher during pregnancy
+
+## What the Research Shows
+
+### Clinical Evidence on Hormones and Joint Laxity
+
+**ACL Injury Risk:**
+Female athletes are 3-6 times more likely to experience ACL injuries than males. Research suggests relaxin may cyclically impact female ACL tissue quality, with injuries occurring more frequently during the ovulatory phase when estrogen and relaxin are highest ([Orthopaedic Journal of Sports Medicine](https://journals.sagepub.com/doi/10.1177/2325967117718781)).
+
+**Patellar Tendon Effects:**
+A study in women with normal menstrual cycles demonstrated a significant link between serum relaxin levels and patellar tendon stiffness, with reduced stiffness when relaxin is elevated ([PMC Study](https://pmc.ncbi.nlm.nih.gov/articles/PMC4282454/)).
+
+**Joint Laxity Patterns:**
+Research found that joint laxity increases during specific cycle phases. One study demonstrated increased knee laxity during ovulation compared with the luteal phase ([PeerJ Study](https://peerj.com/articles/7625/)).
+
+**Thumb and Wrist Joints:**
+A systematic review found that menstrual cycle relaxin peaks corresponded with asymptomatic thumb CMC joint instability in healthy young women. Immunohistochemical studies showed increased relaxin binding to joint tissues in women but not men ([PMC Review](https://pmc.ncbi.nlm.nih.gov/articles/PMC9208132/)).
+
+### Protective Factors
+One study showed a **63% risk reduction in ACL tears** for teen girls using oral contraceptive pills, suggesting hormonal stabilization may protect ligament integrity ([PMC ACL Study](https://pmc.ncbi.nlm.nih.gov/articles/PMC11195904/)).
 
 ---
 
