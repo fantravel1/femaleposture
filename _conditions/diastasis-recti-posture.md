@@ -16,6 +16,31 @@ Diastasis recti—the separation of the rectus abdominis ("six-pack") muscles du
 
 The good news: with proper understanding and targeted exercises, most women can significantly improve or fully heal their diastasis.
 
+## What the Research Shows
+
+### Prevalence Data
+
+The prevalence of diastasis recti abdominis (DRA) is high during late pregnancy and reduces during postpartum. Studies report prevalence between **66-100% in the final weeks of pregnancy**, dropping to approximately **60% at six weeks postpartum and 32.5% at 12 months postpartum** ([PMC Scoping Review](https://pmc.ncbi.nlm.nih.gov/articles/PMC11023973/)).
+
+### Treatment Evidence
+
+A 2025 network meta-analysis compared 11 rehabilitation therapies including Pilates, suspension training, electro-acupuncture, core stability exercises, abdominal supports, pelvic floor exercises, and neuromuscular electrical stimulation ([International Journal of Gynecology & Obstetrics](https://obgyn.onlinelibrary.wiley.com/doi/10.1002/ijgo.70413)).
+
+**Key findings from systematic reviews:**
+- DRA exercises focusing on deep and superficial muscles, pelvic floor muscles, and respiratory maneuvers show promising results in reducing inter-recti distance ([PMC Meta-Analysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC8721086/))
+- There is **low quality evidence that transversus abdominis (TrA) training** is more effective than minimal intervention for treating DRA
+- Abdominal exercises reduce inter-recti distance below the umbilicus more effectively than binding and no intervention ([PubMed](https://pubmed.ncbi.nlm.nih.gov/40018828/))
+
+### Important Caution
+
+Some research found that the **drawing-in exercise** (primarily activating TrA and internal obliques) may actually widen rather than narrow the interrecti distance in some cases. This highlights the importance of individualized assessment and treatment ([PMC Scoping Review](https://pmc.ncbi.nlm.nih.gov/articles/PMC9498119/)).
+
+### Current Clinical Recommendations
+
+Health care professionals should consider a **holistic, individually tailored approach** including progressive functional exercises, breathing exercises with pelvic floor muscle training, and individualized inner- and outer-unit abdominal training. Further high-quality research is needed to provide reliable recommendations ([PMC Study](https://pmc.ncbi.nlm.nih.gov/articles/PMC11023973/)).
+
+---
+
 ## What Is Diastasis Recti?
 
 ### The Anatomy

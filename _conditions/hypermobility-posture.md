@@ -16,6 +16,37 @@ If you've been called "double-jointed," can touch your palms to the floor easily
 
 Hypermobility disproportionately affects women—and understanding how to work with (not against) your body is essential for long-term health.
 
+## What the Research Shows
+
+### Prevalence and Gender Differences
+
+The prevalence of generalized joint hypermobility (GJH) in the general population ranges from **2% to almost 65%** depending on evaluation methods and populations studied. In university-aged populations, prevalence can be estimated at approximately **12.5%** ([PeerJ Study](https://peerj.com/articles/7625/)).
+
+**Critical gender difference**: Following puberty, females demonstrate significantly greater joint laxity scores compared to males (P<0.001). The prevalence of hypermobility was **10.7%, 33.3%, and 28.5% in females** throughout pubertal stages, compared to only **3.2%, 2.3%, and 6.5% in males** ([PMC Study](https://ncbi.nlm.nih.gov/pmc/articles/PMC2453596)).
+
+The combined prevalence of Hypermobility Spectrum Disorders (HSDs) and hEDS is estimated at **1 in 600 to 1 in 900** ([PMC Review](https://pmc.ncbi.nlm.nih.gov/articles/PMC10457547/)).
+
+### Hormonal Influences in Women
+
+A study following **386 women with hypermobile EDS** found that puberty worsened EDS symptoms in **52% of women** and led to the development of new symptoms in **17%**. Research shows estradiol decreases collagen formation in tendons following exercise, and joint laxity increases during pregnancy in some women ([PMC Study](https://pmc.ncbi.nlm.nih.gov/articles/PMC5020453/)).
+
+### Gynecologic Impact
+
+Women with hypermobile EDS report high rates of symptoms beyond joint issues:
+- **Menorrhagia (heavy periods):** 76%
+- **Dysmenorrhea (painful periods):** 72.8%
+- **Severe dyspareunia (painful intercourse):** 61%
+- **Joint pain:** 96%
+- **Fatigue:** 92%
+
+([PMC Cohort Study](https://pmc.ncbi.nlm.nih.gov/articles/PMC5020453/))
+
+### Underdiagnosis Problem
+
+Because of the rarity of these conditions (ranging from 1 in 5,000 for more common types to 1 in a million for ultra-rare types), many doctors don't consider EDS/HSD as possible diagnoses, leading to **gross underdiagnosis and mistreatment** ([Women's Health Research Cluster](https://womenshealthresearchcluster.com/learn/womens-health-blog/the-invisible-disability-of-ehlers-danlos-and-hypermobility/)).
+
+---
+
 ## Understanding Hypermobility
 
 ### What Is Hypermobility?

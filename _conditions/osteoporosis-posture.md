@@ -18,6 +18,34 @@ The right approach to posture and exercise can protect your spine, reduce fractu
 
 This guide covers safe practices for women with osteoporosis or osteopenia (the precursor to osteoporosis).
 
+## What the Research Shows
+
+### Hyperkyphosis and Fracture Risk
+
+The Rancho Bernardo Study found that **older women with hyperkyphotic posture had a 1.7-fold increased risk of future fracture** independent of age, prior fracture, and bone mineral density. Women with kyphosis greater than 53 degrees had a **50% increased risk of non-spine fracture** after adjusting for BMD and prevalent vertebral fractures ([PMC Study](https://pmc.ncbi.nlm.nih.gov/articles/PMC4964958/)).
+
+### Kyphosis Prevalence and Causes
+
+**Hyperkyphosis affects up to 40% of older women** depending on the cut-off criterion used. Importantly, only **36-38% of those with the most abnormal kyphosis have underlying vertebral fractures**—other factors contribute significantly ([JOSPT Review](https://www.jospt.org/doi/10.2519/jospt.2010.3099)).
+
+### Kyphosis Progression
+
+The Study of Osteoporotic Fractures (15-year follow-up) found that over 15 years, **the mean increase in kyphosis was 7.1 degrees**. Independent determinants included vertebral fractures, low bone mineral density, low body weight, and concurrent weight loss. A **22% increase in annual vertebral fracture rate** was reported for every 10° increase in kyphosis angle ([PMC Study](https://pmc.ncbi.nlm.nih.gov/articles/PMC3693545/)).
+
+### Postmenopausal Women
+
+In postmenopausal women with osteoporosis, patients with the highest baseline kyphosis experienced **significantly more vertebral fractures** than those with medium or lowest kyphosis, even after adjusting for prevalent fractures, age, BMI, and BMD ([PubMed](https://pubmed.ncbi.nlm.nih.gov/19594302/)).
+
+### Treatment Evidence
+
+A randomized controlled trial found that wearing a **spinal orthosis 2 hours daily for 6 months** resulted in an 11% decrease in kyphosis angle, improved standing height, and increased spinal extensor strength in community-dwelling older women with osteoporosis and kyphosis ≥60° ([PMC Study](https://pmc.ncbi.nlm.nih.gov/articles/PMC5466863/)).
+
+### Hormonal Protection
+
+Menopausal hormone therapy (HT) reverses bone loss, prevents vertebral fractures, and may reduce the risk for developing hyperkyphosis ([PMC Study](https://pmc.ncbi.nlm.nih.gov/articles/PMC6014891/)).
+
+---
+
 ## Understanding the Risk
 
 ### Why Women Are Vulnerable
