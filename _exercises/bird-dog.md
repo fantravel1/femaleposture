@@ -16,6 +16,11 @@ schema_type: "HowTo"
 
 > **At a Glance:** Bird dog is a fundamental core exercise that builds spinal stability while challenging balance and coordination. It strengthens the back, glutes, and core simultaneously while teaching your body to move limbs without compromising spinal position.
 
+<figure class="exercise-illustration">
+  <img src="/assets/images/svg/exercises/bird-dog.svg" alt="Bird dog exercise showing tabletop position with opposite arm and leg extended, maintaining neutral spine" loading="lazy">
+  <figcaption>Extend opposite arm and leg while keeping hips level and spine neutral</figcaption>
+</figure>
+
 ---
 
 ## Quick Facts

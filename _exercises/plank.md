@@ -16,6 +16,11 @@ schema_type: "HowTo"
 
 > **At a Glance:** The plank is a fundamental core exercise that builds the stability needed for good posture. It trains your core to resist movement—exactly what it needs to do all day.
 
+<figure class="exercise-illustration">
+  <img src="/assets/images/svg/exercises/plank.svg" alt="Plank exercise showing proper form with body in straight line from head to heels, core engaged" loading="lazy">
+  <figcaption>Maintain straight line from head to heels with core engaged and glutes squeezed</figcaption>
+</figure>
+
 ---
 
 ## Quick Facts

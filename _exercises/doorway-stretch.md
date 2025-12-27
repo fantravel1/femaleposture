@@ -16,6 +16,11 @@ schema_type: "HowTo"
 
 > **At a Glance:** The doorway stretch is one of the most effective ways to stretch tight chest and front shoulder muscles. These muscles shorten from desk work and phone use, pulling shoulders forward. This simple stretch helps restore balance.
 
+<figure class="exercise-illustration">
+  <img src="/assets/images/svg/exercises/doorway-stretch.svg" alt="Doorway chest stretch showing person with forearms on door frame, leaning forward to stretch chest muscles" loading="lazy">
+  <figcaption>Place forearms on door frame and lean through to stretch chest and front shoulders</figcaption>
+</figure>
+
 ---
 
 ## Quick Facts

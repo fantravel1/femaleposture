@@ -16,6 +16,11 @@ schema_type: "HowTo"
 
 > **At a Glance:** Wall angels strengthen the muscles that pull your shoulders back while stretching the tight muscles that pull them forward. This simple exercise is one of the most effective movements for correcting rounded shoulders and improving upper body posture.
 
+<figure class="exercise-illustration">
+  <img src="/assets/images/svg/exercises/wall-angels.svg" alt="Wall angels exercise showing starting position with arms in goalpost shape against wall, and raised position with arms extended overhead" loading="lazy">
+  <figcaption>Keep back, shoulders, and arms against wall while sliding arms up and down</figcaption>
+</figure>
+
 ---
 
 ## Quick Facts

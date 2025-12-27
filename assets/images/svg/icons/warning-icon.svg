@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <title>Warning Icon</title>
+  <desc>Icon for caution or warning messages</desc>
+
+  <!-- Triangle background -->
+  <path d="M32 8 L58 52 L6 52 Z" fill="#E07A5F" opacity="0.15"/>
+  <path d="M32 8 L58 52 L6 52 Z" stroke="#E07A5F" stroke-width="2.5" fill="none" stroke-linejoin="round"/>
+
+  <!-- Exclamation mark -->
+  <path d="M32 22 L32 36" stroke="#E07A5F" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="32" cy="44" r="3" fill="#E07A5F"/>
+</svg>

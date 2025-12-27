@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 350" fill="none">
+  <title>Spine Alignment and Natural Curves</title>
+  <desc>Illustration showing the natural curves of the spine and proper alignment</desc>
+
+  <!-- Background -->
+  <rect width="400" height="350" fill="#FDF8F6"/>
+
+  <!-- Title -->
+  <text x="200" y="25" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#3D5A80" text-anchor="middle">Natural Spinal Curves</text>
+
+  <!-- Spine illustration -->
+  <g transform="translate(120, 50)">
+
+    <!-- Full spine path with curves -->
+    <path d="M80 20
+             Q75 50 85 80
+             Q95 120 80 160
+             Q65 200 85 240
+             L80 270"
+          stroke="#3D5A80" stroke-width="20" stroke-linecap="round" fill="none" opacity="0.3"/>
+
+    <!-- Vertebrae representations -->
+    <!-- Cervical (7) -->
+    <g fill="#81B29A" stroke="#3D5A80" stroke-width="1.5">
+      <ellipse cx="80" cy="25" rx="12" ry="6"/>
+      <ellipse cx="78" cy="35" rx="12" ry="6"/>
+      <ellipse cx="76" cy="45" rx="13" ry="6"/>
+      <ellipse cx="76" cy="55" rx="13" ry="6"/>
+      <ellipse cx="78" cy="65" rx="14" ry="6"/>
+      <ellipse cx="80" cy="75" rx="14" ry="6"/>
+      <ellipse cx="83" cy="85" rx="15" ry="6"/>
+    </g>
+
+    <!-- Thoracic (12) -->
+    <g fill="#81B29A" stroke="#3D5A80" stroke-width="1.5">
+      <ellipse cx="87" cy="97" rx="16" ry="6"/>
+      <ellipse cx="90" cy="109" rx="17" ry="6"/>
+      <ellipse cx="92" cy="121" rx="17" ry="6"/>
+      <ellipse cx="92" cy="133" rx="17" ry="6"/>
+      <ellipse cx="90" cy="145" rx="17" ry="6"/>
+      <ellipse cx="87" cy="157" rx="17" ry="6"/>
+      <ellipse cx="83" cy="169" rx="16" ry="6"/>
+      <ellipse cx="78" cy="181" rx="16" ry="6"/>
+      <ellipse cx="75" cy="193" rx="16" ry="6"/>
+      <ellipse cx="73" cy="205" rx="16" ry="6"/>
+      <ellipse cx="75" cy="217" rx="17" ry="6"/>
+      <ellipse cx="78" cy="229" rx="18" ry="6"/>
+    </g>
+
+    <!-- Lumbar (5) -->
+    <g fill="#81B29A" stroke="#3D5A80" stroke-width="1.5">
+      <ellipse cx="83" cy="243" rx="20" ry="7"/>
+      <ellipse cx="86" cy="257" rx="21" ry="7"/>
+      <ellipse cx="85" cy="271" rx="21" ry="7"/>
+      <ellipse cx="82" cy="285" rx="20" ry="7"/>
+      <ellipse cx="78" cy="297" rx="19" ry="6"/>
+    </g>
+
+    <!-- Curve labels on right side -->
+    <!-- Cervical lordosis -->
+    <path d="M100 55 L140 55" stroke="#81B29A" stroke-width="1.5"/>
+    <text x="145" y="50" font-family="Inter, sans-serif" font-size="11" fill="#3D5A80">Cervical</text>
+    <text x="145" y="62" font-family="Inter, sans-serif" font-size="10" fill="#81B29A">(curves in)</text>
+
+    <!-- Thoracic kyphosis -->
+    <path d="M110 145 L140 145" stroke="#E07A5F" stroke-width="1.5"/>
+    <text x="145" y="140" font-family="Inter, sans-serif" font-size="11" fill="#3D5A80">Thoracic</text>
+    <text x="145" y="152" font-family="Inter, sans-serif" font-size="10" fill="#E07A5F">(curves out)</text>
+
+    <!-- Lumbar lordosis -->
+    <path d="M105 260 L140 260" stroke="#81B29A" stroke-width="1.5"/>
+    <text x="145" y="255" font-family="Inter, sans-serif" font-size="11" fill="#3D5A80">Lumbar</text>
+    <text x="145" y="267" font-family="Inter, sans-serif" font-size="10" fill="#81B29A">(curves in)</text>
+
+    <!-- Curve direction indicators -->
+    <path d="M55 50 Q45 55 55 65" stroke="#81B29A" stroke-width="2" fill="none"/>
+    <path d="M105 130 Q115 145 105 160" stroke="#E07A5F" stroke-width="2" fill="none"/>
+    <path d="M55 250 Q45 260 55 275" stroke="#81B29A" stroke-width="2" fill="none"/>
+
+  </g>
+
+  <!-- Legend at bottom -->
+  <g transform="translate(50, 330)">
+    <rect x="0" y="-5" width="12" height="12" rx="2" fill="#81B29A"/>
+    <text x="18" y="5" font-family="Inter, sans-serif" font-size="10" fill="#3D5A80">Lordosis (inward curve)</text>
+
+    <rect x="160" y="-5" width="12" height="12" rx="2" fill="#E07A5F"/>
+    <text x="178" y="5" font-family="Inter, sans-serif" font-size="10" fill="#3D5A80">Kyphosis (outward curve)</text>
+  </g>
+</svg>

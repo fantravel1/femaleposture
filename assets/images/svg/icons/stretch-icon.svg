@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <title>Stretch Icon</title>
+  <desc>Icon representing stretching exercises</desc>
+
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="30" fill="#81B29A" opacity="0.15"/>
+  <circle cx="32" cy="32" r="30" stroke="#81B29A" stroke-width="2" fill="none"/>
+
+  <!-- Figure in stretch pose -->
+  <!-- Head -->
+  <circle cx="24" cy="20" r="5" fill="#3D5A80"/>
+
+  <!-- Body bending -->
+  <path d="M24 25 L28 36" stroke="#3D5A80" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Arms reaching -->
+  <path d="M28 36 L48 24" stroke="#3D5A80" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Legs grounded -->
+  <path d="M28 36 L20 52" stroke="#3D5A80" stroke-width="3" stroke-linecap="round"/>
+  <path d="M28 36 L40 48" stroke="#3D5A80" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Stretch indication arrows -->
+  <path d="M44 28 L52 20" stroke="#81B29A" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="52,20 48,22 50,26" fill="#81B29A"/>
+</svg>

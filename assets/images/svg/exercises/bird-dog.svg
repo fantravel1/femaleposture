@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" fill="none">
+  <title>Bird-Dog Exercise</title>
+  <desc>Illustration showing bird-dog exercise for core stability and back strength</desc>
+
+  <!-- Background -->
+  <rect width="400" height="200" fill="#FDF8F6"/>
+
+  <!-- Floor reference -->
+  <line x1="30" y1="175" x2="370" y2="175" stroke="#D0CBC7" stroke-width="2"/>
+
+  <!-- Main Figure -->
+  <g transform="translate(100, 20)">
+
+    <!-- Support hand -->
+    <ellipse cx="0" cy="150" rx="12" ry="7" fill="#81B29A" stroke="#3D5A80" stroke-width="2"/>
+
+    <!-- Support arm -->
+    <path d="M0 150 L0 110" stroke="#3D5A80" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- Torso/spine - kept neutral -->
+    <path d="M0 105 L100 100" stroke="#3D5A80" stroke-width="10" stroke-linecap="round"/>
+
+    <!-- Head -->
+    <circle cx="-15" cy="95" r="20" fill="#81B29A" stroke="#3D5A80" stroke-width="2"/>
+    <circle cx="-22" cy="90" r="2.5" fill="#3D5A80"/>
+
+    <!-- Extended arm (opposite to extended leg) -->
+    <path d="M5 102 L-60 85" stroke="#3D5A80" stroke-width="5" stroke-linecap="round"/>
+    <ellipse cx="-65" cy="83" rx="8" ry="5" fill="#81B29A" stroke="#3D5A80" stroke-width="2"/>
+
+    <!-- Hips -->
+    <ellipse cx="105" cy="95" rx="20" ry="16" fill="#81B29A" stroke="#3D5A80" stroke-width="2"/>
+
+    <!-- Support knee -->
+    <path d="M95 108 L80 150" stroke="#3D5A80" stroke-width="6" stroke-linecap="round"/>
+    <ellipse cx="80" cy="155" rx="10" ry="6" fill="#81B29A" stroke="#3D5A80" stroke-width="2"/>
+
+    <!-- Extended leg (opposite to extended arm) -->
+    <path d="M115 100 L200 95" stroke="#3D5A80" stroke-width="6" stroke-linecap="round"/>
+    <ellipse cx="208" cy="95" rx="10" ry="6" fill="#81B29A" stroke="#3D5A80" stroke-width="2"/>
+
+    <!-- Alignment line -->
+    <path d="M-65 83 L208 95" stroke="#81B29A" stroke-width="1" stroke-dasharray="6,4" opacity="0.5"/>
+
+    <!-- Neutral spine indicator -->
+    <path d="M50 75 L50 60" stroke="#81B29A" stroke-width="2"/>
+    <text x="55" y="60" font-family="Inter, sans-serif" font-size="10" fill="#81B29A">Keep spine neutral</text>
+
+    <!-- Core engagement indicator -->
+    <ellipse cx="50" cy="110" rx="25" ry="8" fill="#E07A5F" opacity="0.2" stroke="#E07A5F" stroke-width="1" stroke-dasharray="3,2"/>
+    <text x="25" y="130" font-family="Inter, sans-serif" font-size="9" fill="#E07A5F">Core engaged</text>
+  </g>
+
+  <!-- Labels -->
+  <text x="60" y="90" font-family="Inter, sans-serif" font-size="10" fill="#3D5A80">Extend opposite</text>
+  <text x="60" y="102" font-family="Inter, sans-serif" font-size="10" fill="#3D5A80">arm and leg</text>
+
+  <!-- Instructions -->
+  <text x="200" y="192" font-family="Inter, sans-serif" font-size="11" fill="#3D5A80" text-anchor="middle">Keep hips level, don't rotate. Hold 5-10 seconds, then switch sides.</text>
+</svg>

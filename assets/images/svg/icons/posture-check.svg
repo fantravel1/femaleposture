@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <title>Posture Check Icon</title>
+  <desc>Icon representing a posture self-check</desc>
+
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="30" fill="#81B29A" opacity="0.15"/>
+  <circle cx="32" cy="32" r="30" stroke="#81B29A" stroke-width="2" fill="none"/>
+
+  <!-- Simplified human figure with alignment line -->
+  <!-- Head -->
+  <circle cx="32" cy="14" r="6" fill="#3D5A80"/>
+
+  <!-- Body -->
+  <path d="M32 20 L32 38" stroke="#3D5A80" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Shoulders -->
+  <path d="M24 26 L40 26" stroke="#3D5A80" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Legs -->
+  <path d="M32 38 L26 52" stroke="#3D5A80" stroke-width="3" stroke-linecap="round"/>
+  <path d="M32 38 L38 52" stroke="#3D5A80" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Alignment check line -->
+  <path d="M32 8 L32 56" stroke="#81B29A" stroke-width="1.5" stroke-dasharray="3,2"/>
+
+  <!-- Check mark -->
+  <path d="M46 18 L50 22 L58 12" stroke="#81B29A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

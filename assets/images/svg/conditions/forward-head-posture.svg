@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 300" fill="none">
+  <title>Forward Head Posture Comparison</title>
+  <desc>Side-by-side comparison of forward head posture vs correct alignment</desc>
+
+  <!-- Background -->
+  <rect width="450" height="300" fill="#FDF8F6"/>
+
+  <!-- Forward Head Posture (Left) -->
+  <g transform="translate(50, 30)">
+    <text x="60" y="0" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#E07A5F">Forward Head</text>
+
+    <!-- Vertical reference line (where head should be) -->
+    <path d="M80 250 L80 30" stroke="#D0CBC7" stroke-width="1" stroke-dasharray="6,3"/>
+
+    <!-- Body/torso -->
+    <path d="M80 250 L80 150" stroke="#3D5A80" stroke-width="10" stroke-linecap="round"/>
+
+    <!-- Shoulders -->
+    <ellipse cx="80" cy="145" rx="40" ry="12" fill="#81B29A" stroke="#3D5A80" stroke-width="2"/>
+
+    <!-- Neck - angled forward -->
+    <path d="M80 140 L100 110 L115 75" stroke="#3D5A80" stroke-width="6" stroke-linecap="round" fill="none"/>
+
+    <!-- Head - forward position -->
+    <circle cx="125" cy="55" r="30" fill="#81B29A" stroke="#3D5A80" stroke-width="2"/>
+    <circle cx="135" cy="50" r="3" fill="#3D5A80"/>
+    <path d="M132 65 Q138 70 144 65" stroke="#3D5A80" stroke-width="2" fill="none"/>
+
+    <!-- Distance indicator -->
+    <path d="M80 55 L120 55" stroke="#E07A5F" stroke-width="2"/>
+    <path d="M80 50 L80 60" stroke="#E07A5F" stroke-width="2"/>
+    <path d="M120 50 L120 60" stroke="#E07A5F" stroke-width="2"/>
+    <text x="92" y="45" font-family="Inter, sans-serif" font-size="10" fill="#E07A5F">2-3"</text>
+
+    <!-- Stress on neck indicator -->
+    <path d="M115 95 L140 85" stroke="#E07A5F" stroke-width="1.5" stroke-dasharray="3,2"/>
+    <text x="145" y="90" font-family="Inter, sans-serif" font-size="9" fill="#E07A5F">Strain</text>
+
+    <!-- Weight indicator -->
+    <text x="125" y="100" font-family="Inter, sans-serif" font-size="9" fill="#3D5A80" text-anchor="middle">+20-30 lbs</text>
+    <text x="125" y="112" font-family="Inter, sans-serif" font-size="9" fill="#3D5A80" text-anchor="middle">on neck</text>
+
+    <!-- X mark -->
+    <circle cx="125" cy="15" r="10" fill="#E07A5F" opacity="0.2"/>
+    <path d="M120 10 L130 20 M130 10 L120 20" stroke="#E07A5F" stroke-width="2"/>
+  </g>
+
+  <!-- Correct Alignment (Right) -->
+  <g transform="translate(270, 30)">
+    <text x="45" y="0" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#81B29A">Correct Alignment</text>
+
+    <!-- Vertical alignment line -->
+    <path d="M80 250 L80 30" stroke="#81B29A" stroke-width="1.5" stroke-dasharray="6,3"/>
+
+    <!-- Body/torso -->
+    <path d="M80 250 L80 150" stroke="#3D5A80" stroke-width="10" stroke-linecap="round"/>
+
+    <!-- Shoulders - back -->
+    <ellipse cx="80" cy="145" rx="40" ry="12" fill="#81B29A" stroke="#3D5A80" stroke-width="2"/>
+
+    <!-- Neck - straight up -->
+    <path d="M80 140 L80 85" stroke="#3D5A80" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- Head - aligned -->
+    <circle cx="80" cy="55" r="30" fill="#81B29A" stroke="#3D5A80" stroke-width="2"/>
+    <circle cx="90" cy="50" r="3" fill="#3D5A80"/>
+    <path d="M87 65 Q93 70 99 65" stroke="#3D5A80" stroke-width="2" fill="none"/>
+
+    <!-- Ear over shoulder indicator -->
+    <circle cx="105" cy="55" r="5" fill="#81B29A" stroke="#3D5A80" stroke-width="1"/>
+    <text x="115" y="58" font-family="Inter, sans-serif" font-size="9" fill="#81B29A">Ear</text>
+
+    <circle cx="115" cy="145" r="5" fill="#81B29A" stroke="#3D5A80" stroke-width="1"/>
+    <text x="125" y="148" font-family="Inter, sans-serif" font-size="9" fill="#81B29A">Shoulder</text>
+
+    <!-- Alignment indicator -->
+    <path d="M105 60 L115 140" stroke="#81B29A" stroke-width="1" stroke-dasharray="4,2"/>
+
+    <!-- Check mark -->
+    <circle cx="80" cy="15" r="10" fill="#81B29A" opacity="0.2"/>
+    <path d="M74 15 L78 19 L88 9" stroke="#81B29A" stroke-width="2" fill="none"/>
+
+    <!-- Weight indicator -->
+    <text x="80" y="100" font-family="Inter, sans-serif" font-size="9" fill="#3D5A80" text-anchor="middle">10-12 lbs</text>
+    <text x="80" y="112" font-family="Inter, sans-serif" font-size="9" fill="#3D5A80" text-anchor="middle">(normal)</text>
+  </g>
+
+  <!-- Bottom explanation -->
+  <text x="225" y="285" font-family="Inter, sans-serif" font-size="11" fill="#3D5A80" text-anchor="middle">For every inch the head moves forward, neck muscles support an extra 10 lbs</text>
+</svg>

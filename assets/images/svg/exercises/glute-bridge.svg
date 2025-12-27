@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" fill="none">
+  <title>Glute Bridge Exercise</title>
+  <desc>Illustration showing proper glute bridge form for core and hip strength</desc>
+
+  <!-- Background -->
+  <rect width="400" height="200" fill="#FDF8F6"/>
+
+  <!-- Floor line -->
+  <line x1="20" y1="170" x2="380" y2="170" stroke="#D0CBC7" stroke-width="2"/>
+
+  <!-- Starting Position (faded) -->
+  <g opacity="0.3">
+    <!-- Body lying flat -->
+    <ellipse cx="120" cy="155" rx="60" ry="12" fill="#81B29A"/>
+    <!-- Head -->
+    <circle cx="55" cy="155" r="18" fill="#81B29A"/>
+    <!-- Legs bent -->
+    <path d="M150 155 L180 155 L200 130 L200 170" stroke="#3D5A80" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <path d="M150 155 L180 155 L200 130 L200 170" stroke="#3D5A80" stroke-width="4" stroke-linecap="round" fill="none" transform="translate(40, 0)"/>
+  </g>
+
+  <!-- Raised Position (main) -->
+  <g transform="translate(0, -20)">
+    <!-- Floor contact points -->
+    <ellipse cx="70" cy="175" rx="15" ry="5" fill="#D0CBC7"/>
+    <ellipse cx="230" cy="175" rx="12" ry="5" fill="#D0CBC7"/>
+    <ellipse cx="270" cy="175" rx="12" ry="5" fill="#D0CBC7"/>
+
+    <!-- Head on ground -->
+    <circle cx="55" cy="165" r="20" fill="#81B29A" stroke="#3D5A80" stroke-width="2"/>
+
+    <!-- Upper back/shoulders on ground -->
+    <ellipse cx="90" cy="165" rx="25" ry="10" fill="#81B29A" stroke="#3D5A80" stroke-width="2"/>
+
+    <!-- Body lifted - the bridge -->
+    <path d="M105 160 Q150 100 190 130 L190 150" stroke="#3D5A80" stroke-width="6" stroke-linecap="round" fill="none"/>
+
+    <!-- Hips lifted -->
+    <ellipse cx="170" cy="115" rx="30" ry="18" fill="#81B29A" stroke="#3D5A80" stroke-width="2"/>
+
+    <!-- Thighs -->
+    <path d="M185 125 L220 165" stroke="#3D5A80" stroke-width="8" stroke-linecap="round"/>
+    <path d="M195 125 L260 165" stroke="#3D5A80" stroke-width="8" stroke-linecap="round"/>
+
+    <!-- Lower legs -->
+    <path d="M220 165 L230 175" stroke="#3D5A80" stroke-width="6" stroke-linecap="round"/>
+    <path d="M260 165 L270 175" stroke="#3D5A80" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- Feet -->
+    <ellipse cx="230" cy="175" rx="12" ry="6" fill="#81B29A" stroke="#3D5A80" stroke-width="2"/>
+    <ellipse cx="270" cy="175" rx="12" ry="6" fill="#81B29A" stroke="#3D5A80" stroke-width="2"/>
+
+    <!-- Arms at sides -->
+    <path d="M95 165 L130 165" stroke="#3D5A80" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Hip lift arrow -->
+    <path d="M170 145 L170 100" stroke="#E07A5F" stroke-width="2"/>
+    <polygon points="170,100 165,108 175,108" fill="#E07A5F"/>
+
+    <!-- Alignment line showing straight body -->
+    <path d="M100 160 L195 115" stroke="#81B29A" stroke-width="1" stroke-dasharray="4,3" opacity="0.6"/>
+  </g>
+
+  <!-- Labels -->
+  <text x="320" y="95" font-family="Inter, sans-serif" font-size="11" fill="#3D5A80">Squeeze</text>
+  <text x="320" y="108" font-family="Inter, sans-serif" font-size="11" fill="#3D5A80">glutes</text>
+
+  <text x="200" y="195" font-family="Inter, sans-serif" font-size="11" fill="#3D5A80" text-anchor="middle">Lift hips until body forms straight line from shoulders to knees</text>
+</svg>

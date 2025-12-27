@@ -16,6 +16,11 @@ schema_type: "HowTo"
 
 > **At a Glance:** Glute bridges are a foundational exercise that strengthens the gluteus maximus while teaching proper pelvic control. Essential for correcting anterior pelvic tilt, supporting lower back health, and building posterior chain strength. Safe for most people including during pregnancy and postpartum.
 
+<figure class="exercise-illustration">
+  <img src="/assets/images/svg/exercises/glute-bridge.svg" alt="Glute bridge exercise showing starting position lying on back with knees bent, and lifted position with hips raised" loading="lazy">
+  <figcaption>Press through heels and squeeze glutes to lift hips until body forms straight line</figcaption>
+</figure>
+
 ---
 
 ## Quick Facts

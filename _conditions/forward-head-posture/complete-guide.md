@@ -22,6 +22,11 @@ og_image: "/assets/images/og/forward-head-posture-guide.jpg"
 
 > **Quick Summary:** Forward head posture (FHP) occurs when your head juts forward past your shoulders, straining your neck and upper back. It affects up to 66% of adults—and women face unique risk factors from phone use, desk work, and life stages like pregnancy and breastfeeding. The good news: with consistent corrective exercises, most cases improve significantly within 4-12 weeks.
 
+<figure class="condition-illustration">
+  <img src="/assets/images/svg/conditions/forward-head-posture.svg" alt="Side-by-side comparison showing forward head posture versus correct head alignment, demonstrating ear position relative to shoulder" loading="lazy">
+  <figcaption>Left: Forward head posture with ear in front of shoulder. Right: Correct alignment with ear stacked over shoulder.</figcaption>
+</figure>
+
 ---
 
 ## Key Takeaways
