@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 title: "Forward Head Posture in Women: Complete Guide | FemalePosture.com"
 description: "Forward head posture affects 66% of adults. Learn why women are at higher risk, how to test yourself, and evidence-based exercises to correct tech neck."
 keywords: ["forward head posture", "tech neck", "forward head posture exercises", "FHP women"]

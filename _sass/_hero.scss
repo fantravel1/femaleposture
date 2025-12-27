@@ -1,0 +1,624 @@
+// =============================================================================
+// HERO & HOMEPAGE STYLES
+// =============================================================================
+
+// -----------------------------------------------------------------------------
+// Hero Section
+// -----------------------------------------------------------------------------
+
+.hero {
+  position: relative;
+  padding: $spacing-12 0;
+  background: linear-gradient(135deg, $color-cream 0%, $color-white 50%, $color-gray-100 100%);
+  overflow: hidden;
+
+  @media (min-width: $breakpoint-md) {
+    padding: $spacing-16 0;
+  }
+
+  @media (min-width: $breakpoint-lg) {
+    padding: $spacing-20 0;
+  }
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 720px;
+
+  @media (min-width: $breakpoint-lg) {
+    max-width: 600px;
+  }
+}
+
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: $spacing-2;
+  padding: $spacing-2 $spacing-4;
+  background-color: $color-white;
+  border: 1px solid $color-gray-200;
+  border-radius: $radius-full;
+  font-size: $font-size-sm;
+  color: $color-text-secondary;
+  margin-bottom: $spacing-6;
+}
+
+.hero-badge-dot {
+  width: 8px;
+  height: 8px;
+  background-color: $color-accent;
+  border-radius: 50%;
+}
+
+.hero-title {
+  font-family: $font-serif;
+  font-size: $font-size-3xl;
+  font-weight: $font-weight-bold;
+  line-height: $line-height-tight;
+  color: $color-gray-900;
+  margin-bottom: $spacing-6;
+
+  @media (min-width: $breakpoint-md) {
+    font-size: $font-size-4xl;
+  }
+
+  @media (min-width: $breakpoint-lg) {
+    font-size: $font-size-5xl;
+  }
+}
+
+.hero-title-accent {
+  color: $color-primary;
+}
+
+.hero-description {
+  font-size: $font-size-md;
+  color: $color-text-secondary;
+  line-height: $line-height-relaxed;
+  margin-bottom: $spacing-8;
+
+  @media (min-width: $breakpoint-md) {
+    font-size: $font-size-lg;
+  }
+}
+
+.hero-actions {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-4;
+
+  @media (min-width: $breakpoint-sm) {
+    flex-direction: row;
+  }
+}
+
+.hero-image {
+  display: none;
+
+  @media (min-width: $breakpoint-lg) {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 45%;
+    max-width: 550px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+// Decorative elements
+.hero-decoration {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.hero-decoration-1 {
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, $color-primary-light 0%, transparent 70%);
+  top: -100px;
+  right: -100px;
+
+  @media (min-width: $breakpoint-lg) {
+    width: 500px;
+    height: 500px;
+    top: -150px;
+    right: 10%;
+  }
+}
+
+.hero-decoration-2 {
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(circle, $color-accent-light 0%, transparent 70%);
+  bottom: -50px;
+  left: 10%;
+}
+
+// -----------------------------------------------------------------------------
+// Stats Section
+// -----------------------------------------------------------------------------
+
+.stats-section {
+  background-color: $color-white;
+  border-top: 1px solid $color-gray-200;
+  border-bottom: 1px solid $color-gray-200;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: $spacing-6;
+
+  @media (min-width: $breakpoint-md) {
+    grid-template-columns: repeat(4, 1fr);
+    gap: $spacing-8;
+  }
+}
+
+.stat-item {
+  text-align: center;
+  padding: $spacing-4;
+}
+
+.stat-number {
+  font-family: $font-serif;
+  font-size: $font-size-2xl;
+  font-weight: $font-weight-bold;
+  color: $color-primary;
+  line-height: 1;
+  margin-bottom: $spacing-2;
+
+  @media (min-width: $breakpoint-md) {
+    font-size: $font-size-3xl;
+  }
+}
+
+.stat-label {
+  font-size: $font-size-sm;
+  color: $color-text-secondary;
+}
+
+// -----------------------------------------------------------------------------
+// Hubs Section (Content Categories)
+// -----------------------------------------------------------------------------
+
+.hubs-section {
+  background-color: $color-bg-secondary;
+}
+
+.section-header {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto $spacing-10;
+}
+
+.section-title {
+  font-family: $font-serif;
+  font-size: $font-size-2xl;
+  font-weight: $font-weight-semibold;
+  color: $color-gray-900;
+  margin-bottom: $spacing-4;
+
+  @media (min-width: $breakpoint-md) {
+    font-size: $font-size-3xl;
+  }
+}
+
+.section-description {
+  font-size: $font-size-md;
+  color: $color-text-secondary;
+}
+
+.hubs-grid {
+  display: grid;
+  gap: $spacing-6;
+
+  @media (min-width: $breakpoint-sm) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: $breakpoint-lg) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Featured Content Section
+// -----------------------------------------------------------------------------
+
+.featured-section {
+  background-color: $color-white;
+}
+
+.featured-grid {
+  display: grid;
+  gap: $spacing-8;
+
+  @media (min-width: $breakpoint-lg) {
+    grid-template-columns: 1fr 1fr;
+    gap: $spacing-10;
+  }
+}
+
+.featured-main {
+  .card {
+    height: 100%;
+  }
+
+  .card-image {
+    aspect-ratio: 16 / 10;
+  }
+
+  .card-title {
+    font-size: $font-size-xl;
+
+    @media (min-width: $breakpoint-md) {
+      font-size: $font-size-2xl;
+    }
+  }
+}
+
+.featured-list {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-4;
+}
+
+.featured-list-item {
+  display: flex;
+  gap: $spacing-4;
+  text-decoration: none;
+  color: inherit;
+  padding: $spacing-3;
+  background-color: $color-cream;
+  border-radius: $radius-md;
+  transition: background-color $transition-fast;
+
+  &:hover {
+    background-color: $color-gray-100;
+
+    .featured-list-title {
+      color: $color-primary;
+    }
+  }
+}
+
+.featured-list-image {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: $radius-md;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.featured-list-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.featured-list-category {
+  font-size: $font-size-xs;
+  font-weight: $font-weight-semibold;
+  text-transform: uppercase;
+  letter-spacing: $letter-spacing-wider;
+  color: $color-primary;
+}
+
+.featured-list-title {
+  font-family: $font-serif;
+  font-size: $font-size-base;
+  font-weight: $font-weight-semibold;
+  color: $color-gray-900;
+  margin-top: $spacing-1;
+  transition: color $transition-fast;
+}
+
+// -----------------------------------------------------------------------------
+// Life Stages Section
+// -----------------------------------------------------------------------------
+
+.life-stages-section {
+  background: linear-gradient(180deg, $color-white 0%, $color-cream 100%);
+}
+
+.life-stages-grid {
+  display: grid;
+  gap: $spacing-4;
+
+  @media (min-width: $breakpoint-sm) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: $breakpoint-md) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media (min-width: $breakpoint-lg) {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+.life-stage-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: $spacing-5;
+  background-color: $color-white;
+  border: 1px solid $color-gray-200;
+  border-radius: $radius-lg;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  transition: all $transition-base;
+
+  &:hover {
+    border-color: $color-primary;
+    box-shadow: $shadow-md;
+    transform: translateY(-2px);
+
+    .life-stage-icon {
+      background-color: $color-primary;
+      color: $color-white;
+    }
+
+    .life-stage-name {
+      color: $color-primary;
+    }
+  }
+}
+
+.life-stage-icon {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $color-cream;
+  color: $color-primary;
+  border-radius: 50%;
+  margin-bottom: $spacing-3;
+  transition: all $transition-base;
+
+  svg {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+.life-stage-name {
+  font-weight: $font-weight-semibold;
+  font-size: $font-size-sm;
+  color: $color-gray-900;
+  transition: color $transition-fast;
+}
+
+.life-stage-count {
+  font-size: $font-size-xs;
+  color: $color-text-muted;
+  margin-top: $spacing-1;
+}
+
+// -----------------------------------------------------------------------------
+// CTA Section
+// -----------------------------------------------------------------------------
+
+.cta-section {
+  background: linear-gradient(135deg, $color-secondary-dark 0%, $color-secondary 100%);
+  color: $color-white;
+  text-align: center;
+}
+
+.cta-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.cta-title {
+  font-family: $font-serif;
+  font-size: $font-size-2xl;
+  font-weight: $font-weight-semibold;
+  color: $color-white;
+  margin-bottom: $spacing-4;
+
+  @media (min-width: $breakpoint-md) {
+    font-size: $font-size-3xl;
+  }
+}
+
+.cta-description {
+  font-size: $font-size-md;
+  color: rgba($color-white, 0.9);
+  margin-bottom: $spacing-8;
+}
+
+.cta-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-4;
+  justify-content: center;
+
+  @media (min-width: $breakpoint-sm) {
+    flex-direction: row;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Testimonial Section
+// -----------------------------------------------------------------------------
+
+.testimonials-section {
+  background-color: $color-cream;
+}
+
+.testimonials-grid {
+  display: grid;
+  gap: $spacing-6;
+
+  @media (min-width: $breakpoint-md) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.testimonial-card {
+  background-color: $color-white;
+  padding: $spacing-6;
+  border-radius: $radius-lg;
+  box-shadow: $shadow-sm;
+}
+
+.testimonial-quote {
+  font-size: $font-size-base;
+  color: $color-text-secondary;
+  line-height: $line-height-relaxed;
+  margin-bottom: $spacing-4;
+  font-style: italic;
+
+  &::before {
+    content: '"';
+    font-family: $font-serif;
+    font-size: $font-size-3xl;
+    color: $color-primary-light;
+    line-height: 0;
+    vertical-align: -0.5em;
+    margin-right: $spacing-1;
+  }
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: $spacing-3;
+}
+
+.testimonial-avatar {
+  width: 48px;
+  height: 48px;
+  background-color: $color-gray-200;
+  border-radius: 50%;
+}
+
+.testimonial-name {
+  font-weight: $font-weight-semibold;
+  color: $color-gray-900;
+  font-size: $font-size-sm;
+}
+
+.testimonial-title {
+  font-size: $font-size-xs;
+  color: $color-text-muted;
+}
+
+// -----------------------------------------------------------------------------
+// About/Mission Section
+// -----------------------------------------------------------------------------
+
+.mission-section {
+  background-color: $color-white;
+}
+
+.mission-content {
+  display: grid;
+  gap: $spacing-8;
+  align-items: center;
+
+  @media (min-width: $breakpoint-lg) {
+    grid-template-columns: 1fr 1fr;
+    gap: $spacing-12;
+  }
+}
+
+.mission-text {
+  order: 2;
+
+  @media (min-width: $breakpoint-lg) {
+    order: 1;
+  }
+}
+
+.mission-image {
+  order: 1;
+  border-radius: $radius-xl;
+  overflow: hidden;
+
+  @media (min-width: $breakpoint-lg) {
+    order: 2;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.mission-title {
+  font-family: $font-serif;
+  font-size: $font-size-2xl;
+  font-weight: $font-weight-semibold;
+  color: $color-gray-900;
+  margin-bottom: $spacing-4;
+
+  @media (min-width: $breakpoint-md) {
+    font-size: $font-size-3xl;
+  }
+}
+
+.mission-description {
+  font-size: $font-size-md;
+  color: $color-text-secondary;
+  line-height: $line-height-relaxed;
+  margin-bottom: $spacing-6;
+}
+
+.mission-features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mission-feature {
+  display: flex;
+  align-items: flex-start;
+  gap: $spacing-3;
+  margin-bottom: $spacing-3;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.mission-feature-icon {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $color-accent-light;
+  color: $color-accent-dark;
+  border-radius: 50%;
+
+  svg {
+    width: 14px;
+    height: 14px;
+  }
+}
+
+.mission-feature-text {
+  font-size: $font-size-base;
+  color: $color-text-primary;
+}

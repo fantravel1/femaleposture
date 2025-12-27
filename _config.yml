@@ -1,0 +1,112 @@
+# Site Settings
+title: "FemalePosture.com"
+tagline: "The Internet's Most Comprehensive Female Posture Resource"
+description: "Evidence-based posture guidance for women across all life stages. Expert advice on conditions, exercises, and daily habits for better posture health."
+url: "https://femaleposture.com"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Sass settings
+sass:
+  style: compressed
+  sass_dir: _sass
+
+# Exclude from build
+exclude:
+  - README.md
+  - CONTENT_INVENTORY.md
+  - SITEMAP.md
+  - "*.pdf"
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Collections
+collections:
+  conditions:
+    output: true
+    permalink: /conditions/:path/
+  life-stages:
+    output: true
+    permalink: /life-stages/:path/
+  exercises:
+    output: true
+    permalink: /exercises/:path/
+  activities:
+    output: true
+    permalink: /activities/:path/
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "article"
+  - scope:
+      path: ""
+      type: "conditions"
+    values:
+      layout: "article"
+  - scope:
+      path: ""
+      type: "life-stages"
+    values:
+      layout: "article"
+  - scope:
+      path: ""
+      type: "exercises"
+    values:
+      layout: "article"
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Social
+social:
+  twitter: femaleposture
+  instagram: femaleposture
+
+# Navigation
+navigation:
+  - title: Life Stages
+    url: /life-stages/
+    children:
+      - title: Teen
+        url: /life-stages/teen/
+      - title: Young Adult
+        url: /life-stages/young-adult/
+      - title: Pregnancy
+        url: /life-stages/pregnancy/
+      - title: Postpartum
+        url: /life-stages/postpartum/
+      - title: Menopause
+        url: /life-stages/menopause/
+      - title: Senior
+        url: /life-stages/senior/
+  - title: Conditions
+    url: /conditions/
+    children:
+      - title: Forward Head Posture
+        url: /conditions/forward-head-posture/
+      - title: Rounded Shoulders
+        url: /conditions/rounded-shoulders/
+      - title: Pelvic Tilt
+        url: /conditions/pelvic-tilt/
+      - title: Lower Back Pain
+        url: /conditions/lower-back-pain/
+      - title: Scoliosis
+        url: /conditions/scoliosis/
+  - title: Exercises
+    url: /exercises/
+  - title: Activities
+    url: /activities/
+  - title: Tools
+    url: /tools/
