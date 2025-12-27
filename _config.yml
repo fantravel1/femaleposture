@@ -40,6 +40,27 @@ collections:
   activities:
     output: true
     permalink: /activities/:path/
+  methods:
+    output: true
+    permalink: /methods/:path/
+  tools:
+    output: true
+    permalink: /tools/:path/
+  populations:
+    output: true
+    permalink: /populations/:path/
+  faqs:
+    output: true
+    permalink: /faqs/:path/
+  anatomy:
+    output: true
+    permalink: /anatomy/:path/
+  mental-health:
+    output: true
+    permalink: /mental-health/:path/
+  products:
+    output: true
+    permalink: /products/:path/
 
 # Default front matter
 defaults:
@@ -61,6 +82,36 @@ defaults:
   - scope:
       path: ""
       type: "exercises"
+    values:
+      layout: "article"
+  - scope:
+      path: ""
+      type: "methods"
+    values:
+      layout: "article"
+  - scope:
+      path: ""
+      type: "tools"
+    values:
+      layout: "article"
+  - scope:
+      path: ""
+      type: "populations"
+    values:
+      layout: "article"
+  - scope:
+      path: ""
+      type: "anatomy"
+    values:
+      layout: "article"
+  - scope:
+      path: ""
+      type: "mental-health"
+    values:
+      layout: "article"
+  - scope:
+      path: ""
+      type: "products"
     values:
       layout: "article"
 
@@ -108,5 +159,18 @@ navigation:
     url: /exercises/
   - title: Activities
     url: /activities/
+  - title: Methods
+    url: /methods/
+    children:
+      - title: Physical Therapy
+        url: /methods/physical-therapy-posture/
+      - title: Chiropractic Care
+        url: /methods/chiropractic-posture/
+      - title: Alexander Technique
+        url: /methods/alexander-technique/
+      - title: Pelvic Floor PT
+        url: /methods/pelvic-floor-pt/
+      - title: Yoga Therapy
+        url: /methods/yoga-therapy/
   - title: Tools
     url: /tools/
