@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" fill="none">
+  <title>Desk Ergonomics Setup</title>
+  <desc>Illustration showing proper desk and computer ergonomics</desc>
+
+  <!-- Background -->
+  <rect width="500" height="350" fill="#FDF8F6"/>
+
+  <!-- Title -->
+  <text x="250" y="25" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#3D5A80" text-anchor="middle">Ergonomic Desk Setup</text>
+
+  <!-- Desk -->
+  <rect x="100" y="200" width="300" height="12" rx="2" fill="#D0CBC7" stroke="#3D5A80" stroke-width="1.5"/>
+  <rect x="115" y="212" width="12" height="80" fill="#D0CBC7" stroke="#3D5A80" stroke-width="1"/>
+  <rect x="373" y="212" width="12" height="80" fill="#D0CBC7" stroke="#3D5A80" stroke-width="1"/>
+
+  <!-- Chair -->
+  <rect x="175" y="245" width="60" height="8" rx="2" fill="#81B29A" stroke="#3D5A80" stroke-width="1.5"/>
+  <path d="M175 253 L175 295 L185 300 L185 320" stroke="#3D5A80" stroke-width="3"/>
+  <path d="M235 253 L235 295 L225 300 L225 320" stroke="#3D5A80" stroke-width="3"/>
+  <ellipse cx="185" cy="325" rx="10" ry="5" fill="#3D5A80"/>
+  <ellipse cx="225" cy="325" rx="10" ry="5" fill="#3D5A80"/>
+
+  <!-- Chair back -->
+  <rect x="175" y="150" width="10" height="95" rx="2" fill="#81B29A" stroke="#3D5A80" stroke-width="1.5"/>
+
+  <!-- Monitor -->
+  <rect x="300" y="90" width="80" height="60" rx="3" fill="#FDF8F6" stroke="#3D5A80" stroke-width="2"/>
+  <rect x="305" y="95" width="70" height="50" rx="1" fill="#E8E4E1"/>
+  <rect x="335" y="150" width="10" height="30" fill="#3D5A80"/>
+  <rect x="320" y="178" width="40" height="6" rx="1" fill="#3D5A80"/>
+
+  <!-- Keyboard -->
+  <rect x="260" y="190" width="70" height="8" rx="2" fill="#E8E4E1" stroke="#3D5A80" stroke-width="1"/>
+
+  <!-- Mouse -->
+  <ellipse cx="345" cy="192" rx="12" ry="8" fill="#E8E4E1" stroke="#3D5A80" stroke-width="1"/>
+
+  <!-- Person -->
+  <g transform="translate(195, 60)">
+    <!-- Head -->
+    <circle cx="20" cy="35" r="22" fill="#81B29A" stroke="#3D5A80" stroke-width="2"/>
+    <circle cx="27" cy="32" r="2.5" fill="#3D5A80"/>
+
+    <!-- Neck -->
+    <path d="M20 57 L20 70" stroke="#3D5A80" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Torso -->
+    <path d="M20 70 L20 130" stroke="#3D5A80" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- Arms at desk -->
+    <path d="M20 85 L50 100 L75 97" stroke="#3D5A80" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Thighs -->
+    <path d="M20 130 L40 140 L70 140" stroke="#3D5A80" stroke-width="5" stroke-linecap="round"/>
+
+    <!-- Lower legs -->
+    <path d="M70 140 L70 180" stroke="#3D5A80" stroke-width="4" stroke-linecap="round"/>
+    <path d="M80 140 L80 180" stroke="#3D5A80" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Ergonomic annotations -->
+  <g font-family="Inter, sans-serif" font-size="9" fill="#3D5A80">
+
+    <!-- Monitor height -->
+    <path d="M390 90 L420 70" stroke="#81B29A" stroke-width="1.5"/>
+    <text x="425" y="60" fill="#81B29A" font-weight="500">Monitor</text>
+    <text x="425" y="72">Top at eye level</text>
+
+    <!-- Monitor distance -->
+    <path d="M295 130 L295 100 M295 130 L390 130" stroke="#E07A5F" stroke-width="1" stroke-dasharray="3,2"/>
+    <text x="320" y="145" fill="#E07A5F" font-size="8">Arm's length</text>
+
+    <!-- Keyboard/elbow angle -->
+    <path d="M255 195 L225 175" stroke="#81B29A" stroke-width="1.5"/>
+    <text x="160" y="170" fill="#81B29A" font-weight="500">Elbows 90°</text>
+
+    <!-- Back support -->
+    <path d="M170 180 L140 190" stroke="#81B29A" stroke-width="1.5"/>
+    <text x="70" y="190" fill="#81B29A" font-weight="500">Lumbar</text>
+    <text x="70" y="202">support</text>
+
+    <!-- Feet flat -->
+    <path d="M270 320 L300 330" stroke="#81B29A" stroke-width="1.5"/>
+    <text x="305" y="325" fill="#81B29A" font-weight="500">Feet flat</text>
+    <text x="305" y="337">on floor</text>
+
+    <!-- Thighs parallel -->
+    <path d="M280 280 L310 270" stroke="#81B29A" stroke-width="1.5"/>
+    <text x="315" y="270" fill="#81B29A" font-weight="500">Thighs</text>
+    <text x="315" y="282">parallel</text>
+
+  </g>
+
+  <!-- Angle indicator for elbow -->
+  <path d="M250 160 Q270 155 275 175" stroke="#81B29A" stroke-width="1.5" fill="none"/>
+  <text x="265" y="162" font-family="Inter, sans-serif" font-size="8" fill="#81B29A">90°</text>
+
+</svg>

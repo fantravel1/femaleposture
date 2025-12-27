@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" fill="none">
+  <title>Lower Back Pain Areas</title>
+  <desc>Illustration showing common areas of lower back pain</desc>
+
+  <!-- Background -->
+  <rect width="400" height="280" fill="#FDF8F6"/>
+
+  <!-- Title -->
+  <text x="200" y="25" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#3D5A80" text-anchor="middle">Common Lower Back Pain Areas</text>
+
+  <!-- Back view of torso -->
+  <g transform="translate(140, 45)">
+
+    <!-- Torso outline -->
+    <path d="M60 0
+             Q20 30 15 80
+             Q10 140 25 180
+             Q35 210 60 220
+             Q85 210 95 180
+             Q110 140 105 80
+             Q100 30 60 0"
+          fill="#81B29A" stroke="#3D5A80" stroke-width="2" opacity="0.4"/>
+
+    <!-- Spine -->
+    <path d="M60 15 L60 200" stroke="#3D5A80" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Vertebrae marks -->
+    <g stroke="#3D5A80" stroke-width="2">
+      <line x1="50" y1="130" x2="70" y2="130"/>
+      <line x1="48" y1="145" x2="72" y2="145"/>
+      <line x1="48" y1="160" x2="72" y2="160"/>
+      <line x1="50" y1="175" x2="70" y2="175"/>
+      <line x1="52" y1="190" x2="68" y2="190"/>
+    </g>
+
+    <!-- Pain area 1: Central lower back -->
+    <ellipse cx="60" cy="160" rx="25" ry="30" fill="#E07A5F" opacity="0.3" stroke="#E07A5F" stroke-width="2"/>
+
+    <!-- Pain area 2: Left SI joint -->
+    <ellipse cx="35" cy="195" rx="15" ry="12" fill="#E07A5F" opacity="0.25" stroke="#E07A5F" stroke-width="1.5"/>
+
+    <!-- Pain area 3: Right SI joint -->
+    <ellipse cx="85" cy="195" rx="15" ry="12" fill="#E07A5F" opacity="0.25" stroke="#E07A5F" stroke-width="1.5"/>
+
+    <!-- Pelvis outline -->
+    <path d="M25 190 Q60 210 95 190" stroke="#3D5A80" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- Labels -->
+  <g font-family="Inter, sans-serif" font-size="10" fill="#3D5A80">
+    <!-- Central pain -->
+    <path d="M265 195 L295 180" stroke="#E07A5F" stroke-width="1"/>
+    <text x="300" y="175" fill="#E07A5F" font-weight="500">Central</text>
+    <text x="300" y="187">Muscular strain</text>
+    <text x="300" y="199">Disc issues</text>
+
+    <!-- SI joint pain -->
+    <path d="M235 235 L265 250" stroke="#E07A5F" stroke-width="1"/>
+    <text x="270" y="245" fill="#E07A5F" font-weight="500">SI Joint</text>
+    <text x="270" y="257">Sacroiliac</text>
+    <text x="270" y="269">dysfunction</text>
+
+    <!-- Left side -->
+    <path d="M165 235 L135 250" stroke="#E07A5F" stroke-width="1"/>
+    <text x="80" y="250" fill="#E07A5F" font-weight="500">SI Joint</text>
+    <text x="80" y="262">(same as right)</text>
+  </g>
+
+  <!-- Common causes list -->
+  <g transform="translate(30, 260)">
+    <text x="0" y="0" font-family="Inter, sans-serif" font-size="10" fill="#3D5A80">Common causes: Poor posture, muscle weakness, prolonged sitting, improper lifting</text>
+  </g>
+</svg>

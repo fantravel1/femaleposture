@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <title>Checkmark Icon</title>
+  <desc>Icon indicating correct or completed</desc>
+
+  <!-- Circle background -->
+  <circle cx="32" cy="32" r="28" fill="#81B29A" opacity="0.15"/>
+  <circle cx="32" cy="32" r="28" stroke="#81B29A" stroke-width="2.5" fill="none"/>
+
+  <!-- Checkmark -->
+  <path d="M18 32 L28 42 L48 22" stroke="#81B29A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

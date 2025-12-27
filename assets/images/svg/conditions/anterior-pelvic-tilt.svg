@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 300" fill="none">
+  <title>Anterior Pelvic Tilt Comparison</title>
+  <desc>Side view comparison of anterior pelvic tilt vs neutral pelvis position</desc>
+
+  <!-- Background -->
+  <rect width="450" height="300" fill="#FDF8F6"/>
+
+  <!-- Anterior Pelvic Tilt (Left) -->
+  <g transform="translate(50, 40)">
+    <text x="60" y="0" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#E07A5F">Anterior Tilt</text>
+
+    <!-- Legs -->
+    <path d="M80 250 L80 180" stroke="#3D5A80" stroke-width="8" stroke-linecap="round"/>
+
+    <!-- Pelvis - tilted forward -->
+    <ellipse cx="80" cy="160" rx="35" ry="25" fill="#81B29A" stroke="#3D5A80" stroke-width="2" transform="rotate(-20, 80, 160)"/>
+
+    <!-- Lower back - excessive curve -->
+    <path d="M65 145 Q40 110 60 70" stroke="#3D5A80" stroke-width="8" stroke-linecap="round" fill="none"/>
+
+    <!-- Upper body -->
+    <path d="M60 70 L70 40" stroke="#3D5A80" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- Head -->
+    <circle cx="75" cy="25" r="20" fill="#81B29A" stroke="#3D5A80" stroke-width="2"/>
+
+    <!-- Belly pushed forward indicator -->
+    <path d="M45 130 Q25 110 45 90" stroke="#3D5A80" stroke-width="2" fill="none"/>
+    <text x="5" y="115" font-family="Inter, sans-serif" font-size="9" fill="#E07A5F">Belly</text>
+    <text x="5" y="126" font-family="Inter, sans-serif" font-size="9" fill="#E07A5F">forward</text>
+
+    <!-- Excessive low back curve -->
+    <path d="M50 100 L30 110" stroke="#E07A5F" stroke-width="1.5"/>
+    <text x="0" y="95" font-family="Inter, sans-serif" font-size="9" fill="#E07A5F">Excessive</text>
+    <text x="5" y="106" font-family="Inter, sans-serif" font-size="9" fill="#E07A5F">curve</text>
+
+    <!-- Pelvic tilt angle indicator -->
+    <path d="M50 175 L95 155" stroke="#E07A5F" stroke-width="1.5"/>
+    <path d="M50 175 L95 175" stroke="#D0CBC7" stroke-width="1"/>
+    <text x="75" y="190" font-family="Inter, sans-serif" font-size="9" fill="#E07A5F">Tilted</text>
+
+    <!-- Buttocks pushed back -->
+    <path d="M100 170 L120 180" stroke="#E07A5F" stroke-width="1.5"/>
+    <text x="115" y="195" font-family="Inter, sans-serif" font-size="9" fill="#E07A5F">Back</text>
+  </g>
+
+  <!-- Neutral Pelvis (Right) -->
+  <g transform="translate(270, 40)">
+    <text x="40" y="0" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#81B29A">Neutral Pelvis</text>
+
+    <!-- Vertical reference -->
+    <path d="M80 260 L80 20" stroke="#81B29A" stroke-width="1" stroke-dasharray="6,3"/>
+
+    <!-- Legs -->
+    <path d="M80 250 L80 180" stroke="#3D5A80" stroke-width="8" stroke-linecap="round"/>
+
+    <!-- Pelvis - neutral -->
+    <ellipse cx="80" cy="160" rx="35" ry="25" fill="#81B29A" stroke="#3D5A80" stroke-width="2"/>
+
+    <!-- Spine - natural curves -->
+    <path d="M75 140 Q70 110 75 80 Q78 60 80 45" stroke="#3D5A80" stroke-width="8" stroke-linecap="round" fill="none"/>
+
+    <!-- Head -->
+    <circle cx="80" cy="30" r="20" fill="#81B29A" stroke="#3D5A80" stroke-width="2"/>
+
+    <!-- Neutral pelvic angle indicator -->
+    <path d="M50 160 L110 160" stroke="#81B29A" stroke-width="1.5"/>
+    <text x="85" y="175" font-family="Inter, sans-serif" font-size="9" fill="#81B29A">Level</text>
+
+    <!-- Alignment points -->
+    <circle cx="80" cy="30" r="4" fill="#81B29A"/>
+    <circle cx="80" cy="80" r="4" fill="#81B29A"/>
+    <circle cx="80" cy="160" r="4" fill="#81B29A"/>
+    <circle cx="80" cy="250" r="4" fill="#81B29A"/>
+
+    <!-- Check mark -->
+    <circle cx="80" cy="-5" r="10" fill="#81B29A" opacity="0.2"/>
+    <path d="M74 -5 L78 -1 L88 -11" stroke="#81B29A" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- Key muscles diagram -->
+  <g transform="translate(30, 265)">
+    <text x="0" y="0" font-family="Inter, sans-serif" font-size="10" font-weight="500" fill="#3D5A80">Key imbalances:</text>
+    <text x="95" y="0" font-family="Inter, sans-serif" font-size="10" fill="#E07A5F">Tight: hip flexors, low back</text>
+    <text x="265" y="0" font-family="Inter, sans-serif" font-size="10" fill="#81B29A">Weak: glutes, abs</text>
+  </g>
+</svg>

@@ -16,6 +16,11 @@ schema_type: "HowTo"
 
 > **At a Glance:** Dead bug is one of the safest and most effective core exercises. It teaches your core to resist extension (arching) while moving your limbs—exactly what your core needs to do in daily life. Perfect for beginners, those with back pain, and postpartum recovery.
 
+<figure class="exercise-illustration">
+  <img src="/assets/images/svg/exercises/dead-bug.svg" alt="Dead bug exercise showing starting position with arms up and knees bent, and extended position with opposite arm and leg reaching out" loading="lazy">
+  <figcaption>Keep lower back pressed into floor while extending opposite arm and leg</figcaption>
+</figure>
+
 ---
 
 ## Quick Facts

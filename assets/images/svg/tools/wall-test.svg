@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" fill="none">
+  <title>Wall Test for Posture Assessment</title>
+  <desc>Illustration showing how to perform the wall test for posture self-assessment</desc>
+
+  <!-- Background -->
+  <rect width="400" height="320" fill="#FDF8F6"/>
+
+  <!-- Title -->
+  <text x="200" y="25" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#3D5A80" text-anchor="middle">Wall Posture Test</text>
+
+  <!-- Wall -->
+  <rect x="60" y="40" width="20" height="250" fill="#E8E4E1"/>
+  <line x1="80" y1="40" x2="80" y2="290" stroke="#D0CBC7" stroke-width="2"/>
+
+  <!-- Person against wall -->
+  <g transform="translate(85, 50)">
+
+    <!-- Head touching wall -->
+    <circle cx="0" cy="30" r="25" fill="#81B29A" stroke="#3D5A80" stroke-width="2"/>
+    <circle cx="7" cy="26" r="3" fill="#3D5A80"/>
+
+    <!-- Neck -->
+    <path d="M0 55 L0 70" stroke="#3D5A80" stroke-width="5" stroke-linecap="round"/>
+
+    <!-- Shoulders against wall -->
+    <ellipse cx="0" cy="85" rx="35" ry="12" fill="#81B29A" stroke="#3D5A80" stroke-width="2"/>
+
+    <!-- Upper back -->
+    <path d="M0 95 L0 130" stroke="#3D5A80" stroke-width="8" stroke-linecap="round"/>
+
+    <!-- Lower back with natural curve (gap) -->
+    <path d="M0 130 Q15 160 0 190" stroke="#3D5A80" stroke-width="8" stroke-linecap="round" fill="none"/>
+
+    <!-- Buttocks touching wall -->
+    <ellipse cx="-5" cy="200" rx="20" ry="20" fill="#81B29A" stroke="#3D5A80" stroke-width="2"/>
+
+    <!-- Legs -->
+    <path d="M0 215 L0 260" stroke="#3D5A80" stroke-width="6" stroke-linecap="round"/>
+    <path d="M0 215 L-15 260" stroke="#3D5A80" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- Heels against wall -->
+    <ellipse cx="-5" cy="265" rx="12" ry="8" fill="#81B29A" stroke="#3D5A80" stroke-width="2"/>
+    <ellipse cx="8" cy="265" rx="12" ry="8" fill="#81B29A" stroke="#3D5A80" stroke-width="2"/>
+
+  </g>
+
+  <!-- Contact point indicators -->
+  <g font-family="Inter, sans-serif" font-size="10" fill="#3D5A80">
+
+    <!-- Head -->
+    <circle cx="75" cy="80" r="5" fill="#81B29A"/>
+    <path d="M80 80 L120 65" stroke="#81B29A" stroke-width="1.5"/>
+    <text x="125" y="60" fill="#81B29A" font-weight="500">1. Head</text>
+    <text x="125" y="72">Should touch</text>
+
+    <!-- Shoulders -->
+    <circle cx="75" cy="135" r="5" fill="#81B29A"/>
+    <path d="M80 135 L120 125" stroke="#81B29A" stroke-width="1.5"/>
+    <text x="125" y="120" fill="#81B29A" font-weight="500">2. Shoulder blades</text>
+    <text x="125" y="132">Should touch</text>
+
+    <!-- Low back gap -->
+    <path d="M90 200 L120 190" stroke="#E07A5F" stroke-width="1.5"/>
+    <text x="125" y="185" fill="#E07A5F" font-weight="500">3. Low back gap</text>
+    <text x="125" y="197">~1-2 inches</text>
+    <text x="125" y="209">(hand should fit)</text>
+
+    <!-- Buttocks -->
+    <circle cx="75" cy="250" r="5" fill="#81B29A"/>
+    <path d="M80 250 L120 255" stroke="#81B29A" stroke-width="1.5"/>
+    <text x="125" y="250" fill="#81B29A" font-weight="500">4. Buttocks</text>
+    <text x="125" y="262">Should touch</text>
+
+    <!-- Heels -->
+    <circle cx="75" cy="315" r="5" fill="#81B29A"/>
+    <path d="M80 310 L120 300" stroke="#81B29A" stroke-width="1.5"/>
+    <text x="125" y="295" fill="#81B29A" font-weight="500">5. Heels</text>
+    <text x="125" y="307">2-4" from wall</text>
+
+  </g>
+
+  <!-- Low back gap illustration -->
+  <g transform="translate(85, 180)">
+    <path d="M-5 0 L-5 40" stroke="#E07A5F" stroke-width="1" stroke-dasharray="3,2"/>
+    <path d="M-5 20 L15 20" stroke="#E07A5F" stroke-width="2"/>
+    <text x="18" y="24" font-family="Inter, sans-serif" font-size="9" fill="#E07A5F">gap</text>
+  </g>
+
+</svg>

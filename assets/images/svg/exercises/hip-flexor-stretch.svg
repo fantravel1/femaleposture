@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" fill="none">
+  <title>Hip Flexor Stretch</title>
+  <desc>Illustration showing kneeling hip flexor stretch position</desc>
+
+  <!-- Background -->
+  <rect width="400" height="250" fill="#FDF8F6"/>
+
+  <!-- Floor -->
+  <line x1="30" y1="220" x2="370" y2="220" stroke="#D0CBC7" stroke-width="2"/>
+
+  <!-- Figure in lunge stretch position -->
+  <g transform="translate(100, 30)">
+
+    <!-- Head -->
+    <circle cx="50" cy="25" r="22" fill="#81B29A" stroke="#3D5A80" stroke-width="2"/>
+    <circle cx="58" cy="22" r="2.5" fill="#3D5A80"/>
+
+    <!-- Neck and upper body -->
+    <path d="M50 47 L50 60" stroke="#3D5A80" stroke-width="5" stroke-linecap="round"/>
+
+    <!-- Torso - upright -->
+    <path d="M50 60 L60 130" stroke="#3D5A80" stroke-width="8" stroke-linecap="round"/>
+    <ellipse cx="55" cy="95" rx="20" ry="35" fill="#81B29A" stroke="#3D5A80" stroke-width="2"/>
+
+    <!-- Arms at sides/on hips -->
+    <path d="M40 75 L25 110" stroke="#3D5A80" stroke-width="4" stroke-linecap="round"/>
+    <path d="M70 75 L85 110" stroke="#3D5A80" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Back leg - knee on ground (being stretched) -->
+    <path d="M65 135 L120 150" stroke="#3D5A80" stroke-width="7" stroke-linecap="round"/>
+    <path d="M120 150 L180 135" stroke="#3D5A80" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- Back knee on floor -->
+    <ellipse cx="120" cy="155" rx="12" ry="8" fill="#81B29A" stroke="#3D5A80" stroke-width="2"/>
+
+    <!-- Back foot -->
+    <ellipse cx="185" cy="135" rx="8" ry="12" fill="#81B29A" stroke="#3D5A80" stroke-width="2"/>
+
+    <!-- Front leg - foot forward -->
+    <path d="M50 130 L10 130" stroke="#3D5A80" stroke-width="7" stroke-linecap="round"/>
+    <path d="M10 130 L-20 185" stroke="#3D5A80" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- Front foot -->
+    <ellipse cx="-25" cy="188" rx="15" ry="8" fill="#81B29A" stroke="#3D5A80" stroke-width="2"/>
+
+    <!-- Stretch area highlight - front of back hip -->
+    <ellipse cx="90" cy="135" rx="25" ry="15" fill="#E07A5F" opacity="0.2" stroke="#E07A5F" stroke-width="1.5" stroke-dasharray="4,2"/>
+
+    <!-- Arrow showing pelvis tuck -->
+    <path d="M75 145 Q90 165 110 155" stroke="#81B29A" stroke-width="2" fill="none"/>
+    <polygon points="110,155 102,155 105,148" fill="#81B29A"/>
+
+    <!-- Label for stretch area -->
+    <text x="160" y="115" font-family="Inter, sans-serif" font-size="10" fill="#E07A5F">Feel stretch</text>
+    <text x="160" y="127" font-family="Inter, sans-serif" font-size="10" fill="#E07A5F">here</text>
+  </g>
+
+  <!-- Key points -->
+  <g transform="translate(30, 225)">
+    <text x="0" y="10" font-family="Inter, sans-serif" font-size="10" fill="#3D5A80">Tuck pelvis, stay upright, lean forward slightly to increase stretch</text>
+  </g>
+</svg>

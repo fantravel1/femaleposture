@@ -16,6 +16,11 @@ schema_type: "HowTo"
 
 > **At a Glance:** Cat-cow is a gentle, rhythmic spinal movement that improves flexibility, reduces stiffness, and connects breath with movement. Perfect for morning wake-ups, desk breaks, or warm-ups. Safe for nearly everyone including pregnancy.
 
+<figure class="exercise-illustration">
+  <img src="/assets/images/svg/exercises/cat-cow.svg" alt="Cat-cow exercise showing cow position with back arched and cat position with back rounded" loading="lazy">
+  <figcaption>Flow between cow (inhale, arch) and cat (exhale, round)</figcaption>
+</figure>
+
 ---
 
 ## Quick Facts

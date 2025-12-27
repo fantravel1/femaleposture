@@ -16,6 +16,11 @@ schema_type: "HowTo"
 
 > **At a Glance:** Hip flexor tightness is one of the most common issues from sitting. It contributes to anterior pelvic tilt, lower back pain, and poor posture. Regular hip flexor stretching is essential for anyone who sits more than a few hours daily.
 
+<figure class="exercise-illustration">
+  <img src="/assets/images/svg/exercises/hip-flexor-stretch.svg" alt="Half-kneeling hip flexor stretch showing proper form with posterior pelvic tilt and upright torso" loading="lazy">
+  <figcaption>Tuck tailbone under and squeeze back glute to stretch hip flexors</figcaption>
+</figure>
+
 ---
 
 ## Quick Facts

@@ -16,6 +16,11 @@ schema_type: "HowTo"
 
 > **At a Glance:** Chin tucks (cervical retraction) target the deep neck flexors—the muscles that hold your head in proper alignment. This simple exercise is the foundation of any forward head posture correction program. No equipment needed, can be done anywhere.
 
+<figure class="exercise-illustration">
+  <img src="/assets/images/svg/exercises/chin-tuck.svg" alt="Chin tuck exercise showing before position with forward head and after position with corrected alignment" loading="lazy">
+  <figcaption>Draw chin straight back while keeping eyes level</figcaption>
+</figure>
+
 ---
 
 ## Quick Facts

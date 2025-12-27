@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 200" fill="none">
+  <title>Cat-Cow Exercise</title>
+  <desc>Illustration showing cat and cow positions for spinal mobility</desc>
+
+  <!-- Background -->
+  <rect width="450" height="200" fill="#FDF8F6"/>
+
+  <!-- COW Position (Left) -->
+  <g transform="translate(30, 30)">
+    <text x="70" y="0" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#81B29A">Cow (Inhale)</text>
+
+    <!-- Hands -->
+    <ellipse cx="30" cy="140" rx="10" ry="6" fill="#81B29A" stroke="#3D5A80" stroke-width="2"/>
+    <ellipse cx="130" cy="140" rx="10" ry="6" fill="#81B29A" stroke="#3D5A80" stroke-width="2"/>
+
+    <!-- Arms -->
+    <path d="M30 140 L30 100" stroke="#3D5A80" stroke-width="5" stroke-linecap="round"/>
+    <path d="M130 140 L130 110" stroke="#3D5A80" stroke-width="5" stroke-linecap="round"/>
+
+    <!-- Spine - arched down (cow) -->
+    <path d="M30 95 Q80 130 130 105" stroke="#3D5A80" stroke-width="8" stroke-linecap="round" fill="none"/>
+
+    <!-- Hips -->
+    <ellipse cx="135" cy="95" rx="18" ry="15" fill="#81B29A" stroke="#3D5A80" stroke-width="2"/>
+
+    <!-- Legs (knees) -->
+    <path d="M125 105 L115 140" stroke="#3D5A80" stroke-width="5" stroke-linecap="round"/>
+    <path d="M145 105 L155 140" stroke="#3D5A80" stroke-width="5" stroke-linecap="round"/>
+
+    <!-- Head - looking up -->
+    <circle cx="15" cy="80" r="18" fill="#81B29A" stroke="#3D5A80" stroke-width="2"/>
+    <circle cx="8" cy="75" r="2" fill="#3D5A80"/>
+
+    <!-- Arrow showing belly drop -->
+    <path d="M80 100 L80 120" stroke="#E07A5F" stroke-width="2"/>
+    <polygon points="80,120 76,113 84,113" fill="#E07A5F"/>
+    <text x="85" y="118" font-family="Inter, sans-serif" font-size="9" fill="#E07A5F">belly drops</text>
+
+    <!-- Arrow showing head up -->
+    <path d="M15 60 L15 45" stroke="#81B29A" stroke-width="2"/>
+    <polygon points="15,45 11,52 19,52" fill="#81B29A"/>
+  </g>
+
+  <!-- CAT Position (Right) -->
+  <g transform="translate(240, 30)">
+    <text x="70" y="0" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#E07A5F">Cat (Exhale)</text>
+
+    <!-- Hands -->
+    <ellipse cx="30" cy="140" rx="10" ry="6" fill="#81B29A" stroke="#3D5A80" stroke-width="2"/>
+    <ellipse cx="130" cy="140" rx="10" ry="6" fill="#81B29A" stroke="#3D5A80" stroke-width="2"/>
+
+    <!-- Arms -->
+    <path d="M30 140 L30 110" stroke="#3D5A80" stroke-width="5" stroke-linecap="round"/>
+    <path d="M130 140 L130 110" stroke="#3D5A80" stroke-width="5" stroke-linecap="round"/>
+
+    <!-- Spine - arched up (cat) -->
+    <path d="M30 105 Q80 60 130 105" stroke="#3D5A80" stroke-width="8" stroke-linecap="round" fill="none"/>
+
+    <!-- Hips -->
+    <ellipse cx="135" cy="100" rx="18" ry="15" fill="#81B29A" stroke="#3D5A80" stroke-width="2"/>
+
+    <!-- Legs (knees) -->
+    <path d="M125 110 L115 140" stroke="#3D5A80" stroke-width="5" stroke-linecap="round"/>
+    <path d="M145 110 L155 140" stroke="#3D5A80" stroke-width="5" stroke-linecap="round"/>
+
+    <!-- Head - tucked -->
+    <circle cx="30" cy="95" r="18" fill="#81B29A" stroke="#3D5A80" stroke-width="2"/>
+    <circle cx="23" cy="98" r="2" fill="#3D5A80"/>
+
+    <!-- Arrow showing back arch up -->
+    <path d="M80 90 L80 70" stroke="#E07A5F" stroke-width="2"/>
+    <polygon points="80,70 76,77 84,77" fill="#E07A5F"/>
+    <text x="85" y="75" font-family="Inter, sans-serif" font-size="9" fill="#E07A5F">back rounds</text>
+
+    <!-- Arrow showing head tuck -->
+    <path d="M50 95 L55 105" stroke="#81B29A" stroke-width="2"/>
+    <polygon points="55,105 48,102 53,96" fill="#81B29A"/>
+  </g>
+
+  <!-- Flow arrow between positions -->
+  <g transform="translate(195, 90)">
+    <path d="M0 0 L20 0" stroke="#3D5A80" stroke-width="1.5"/>
+    <path d="M20 0 L20 20" stroke="#3D5A80" stroke-width="1.5"/>
+    <path d="M20 20 L0 20" stroke="#3D5A80" stroke-width="1.5"/>
+    <polygon points="0,20 7,16 7,24" fill="#3D5A80"/>
+  </g>
+
+  <!-- Instructions -->
+  <text x="225" y="185" font-family="Inter, sans-serif" font-size="11" fill="#3D5A80" text-anchor="middle">Flow between positions, matching breath to movement</text>
+</svg>
