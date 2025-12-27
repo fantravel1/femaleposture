@@ -1,0 +1,44 @@
+<header class="site-header" id="site-header">
+  <div class="container">
+    <div class="header-inner">
+      <!-- Logo -->
+      <a href="/" class="site-logo">
+        <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2" fill="none"/>
+          <path d="M20 8C20 8 16 14 16 20C16 26 20 32 20 32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          <path d="M20 8C20 8 24 14 24 20C24 26 20 32 20 32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          <circle cx="20" cy="10" r="3" fill="currentColor"/>
+        </svg>
+        <span>FemalePosture</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="nav-desktop" aria-label="Main navigation">
+        {% for item in site.navigation %}
+        {% if item.children %}
+        <div class="nav-item-dropdown">
+          <a href="{{ item.url }}" class="nav-link">{{ item.title }}</a>
+          <div class="dropdown-menu">
+            {% for child in item.children %}
+            <a href="{{ child.url }}" class="dropdown-link">{{ child.title }}</a>
+            {% endfor %}
+          </div>
+        </div>
+        {% else %}
+        <a href="{{ item.url }}" class="nav-link {% if page.url contains item.url %}active{% endif %}">{{ item.title }}</a>
+        {% endif %}
+        {% endfor %}
+      </nav>
+
+      <!-- Mobile Menu Button -->
+      <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle menu" aria-expanded="false">
+        <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+        <svg class="close-icon hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>

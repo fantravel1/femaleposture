@@ -1,0 +1,375 @@
+// =============================================================================
+// BASE STYLES
+// =============================================================================
+
+// -----------------------------------------------------------------------------
+// Reset & Box Sizing
+// -----------------------------------------------------------------------------
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+// -----------------------------------------------------------------------------
+// HTML & Body
+// -----------------------------------------------------------------------------
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+
+  @media (min-width: $breakpoint-lg) {
+    font-size: 17px;
+  }
+}
+
+body {
+  font-family: $font-sans;
+  font-size: $font-size-base;
+  font-weight: $font-weight-normal;
+  line-height: $line-height-normal;
+  color: $color-text-primary;
+  background-color: $color-bg-primary;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// -----------------------------------------------------------------------------
+// Typography
+// -----------------------------------------------------------------------------
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-serif;
+  font-weight: $font-weight-semibold;
+  line-height: $line-height-tight;
+  color: $color-gray-900;
+  margin-bottom: $spacing-4;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      color: $color-primary;
+    }
+  }
+}
+
+h1 {
+  font-size: $font-size-2xl;
+  letter-spacing: $letter-spacing-tight;
+
+  @media (min-width: $breakpoint-md) {
+    font-size: $font-size-3xl;
+  }
+
+  @media (min-width: $breakpoint-lg) {
+    font-size: $font-size-4xl;
+  }
+}
+
+h2 {
+  font-size: $font-size-xl;
+  margin-top: $spacing-10;
+
+  @media (min-width: $breakpoint-md) {
+    font-size: $font-size-2xl;
+  }
+}
+
+h3 {
+  font-size: $font-size-lg;
+  margin-top: $spacing-8;
+
+  @media (min-width: $breakpoint-md) {
+    font-size: $font-size-xl;
+  }
+}
+
+h4 {
+  font-size: $font-size-md;
+  margin-top: $spacing-6;
+}
+
+h5, h6 {
+  font-size: $font-size-base;
+  margin-top: $spacing-4;
+}
+
+p {
+  margin-bottom: $spacing-4;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+// Lead paragraph
+.lead {
+  font-size: $font-size-md;
+  color: $color-text-secondary;
+  line-height: $line-height-relaxed;
+
+  @media (min-width: $breakpoint-md) {
+    font-size: $font-size-lg;
+  }
+}
+
+// Small text
+small, .small {
+  font-size: $font-size-sm;
+}
+
+// Strong/Bold
+strong, b {
+  font-weight: $font-weight-semibold;
+}
+
+// Emphasis
+em, i {
+  font-style: italic;
+}
+
+// -----------------------------------------------------------------------------
+// Links
+// -----------------------------------------------------------------------------
+
+a {
+  color: $color-primary;
+  text-decoration: none;
+  transition: color $transition-fast;
+
+  &:hover {
+    color: $color-primary-dark;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Lists
+// -----------------------------------------------------------------------------
+
+ul, ol {
+  margin-bottom: $spacing-4;
+  padding-left: $spacing-6;
+}
+
+li {
+  margin-bottom: $spacing-2;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+ul {
+  list-style-type: disc;
+
+  ul {
+    list-style-type: circle;
+    margin-top: $spacing-2;
+    margin-bottom: 0;
+  }
+}
+
+ol {
+  list-style-type: decimal;
+
+  ol {
+    list-style-type: lower-alpha;
+    margin-top: $spacing-2;
+    margin-bottom: 0;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Blockquotes
+// -----------------------------------------------------------------------------
+
+blockquote {
+  margin: $spacing-6 0;
+  padding: $spacing-4 $spacing-6;
+  border-left: 4px solid $color-primary;
+  background-color: $color-cream;
+  border-radius: 0 $radius-md $radius-md 0;
+  font-style: italic;
+
+  p {
+    margin-bottom: $spacing-2;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  cite {
+    display: block;
+    margin-top: $spacing-3;
+    font-size: $font-size-sm;
+    font-style: normal;
+    color: $color-text-muted;
+
+    &::before {
+      content: "— ";
+    }
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Horizontal Rules
+// -----------------------------------------------------------------------------
+
+hr {
+  border: none;
+  border-top: 1px solid $color-gray-200;
+  margin: $spacing-8 0;
+}
+
+// -----------------------------------------------------------------------------
+// Code
+// -----------------------------------------------------------------------------
+
+code {
+  font-family: $font-mono;
+  font-size: 0.875em;
+  padding: $spacing-1 $spacing-2;
+  background-color: $color-gray-100;
+  border-radius: $radius-sm;
+  color: $color-primary-dark;
+}
+
+pre {
+  font-family: $font-mono;
+  font-size: $font-size-sm;
+  padding: $spacing-4;
+  background-color: $color-gray-900;
+  color: $color-gray-100;
+  border-radius: $radius-md;
+  overflow-x: auto;
+  margin-bottom: $spacing-4;
+
+  code {
+    padding: 0;
+    background: none;
+    color: inherit;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Tables
+// -----------------------------------------------------------------------------
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: $spacing-6;
+  font-size: $font-size-sm;
+
+  @media (min-width: $breakpoint-md) {
+    font-size: $font-size-base;
+  }
+}
+
+th, td {
+  padding: $spacing-3 $spacing-4;
+  text-align: left;
+  border-bottom: 1px solid $color-gray-200;
+}
+
+th {
+  font-weight: $font-weight-semibold;
+  background-color: $color-gray-100;
+  color: $color-gray-700;
+}
+
+tbody tr:hover {
+  background-color: $color-cream;
+}
+
+// Responsive tables
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+// -----------------------------------------------------------------------------
+// Images
+// -----------------------------------------------------------------------------
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+figure {
+  margin: $spacing-6 0;
+
+  img {
+    border-radius: $radius-md;
+  }
+
+  figcaption {
+    margin-top: $spacing-2;
+    font-size: $font-size-sm;
+    color: $color-text-muted;
+    text-align: center;
+    font-style: italic;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Forms
+// -----------------------------------------------------------------------------
+
+input,
+textarea,
+select,
+button {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+// -----------------------------------------------------------------------------
+// Selection
+// -----------------------------------------------------------------------------
+
+::selection {
+  background-color: $color-primary-light;
+  color: $color-gray-900;
+}
+
+// -----------------------------------------------------------------------------
+// Focus Styles
+// -----------------------------------------------------------------------------
+
+:focus-visible {
+  outline: 2px solid $color-primary;
+  outline-offset: 2px;
+}
+
+// -----------------------------------------------------------------------------
+// Print Styles
+// -----------------------------------------------------------------------------
+
+@media print {
+  body {
+    background: white;
+    color: black;
+    font-size: 12pt;
+  }
+
+  a {
+    color: black;
+    text-decoration: underline;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+}
