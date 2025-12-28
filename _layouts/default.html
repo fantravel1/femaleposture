@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ page.language | default: 'en' }}">
+<html lang="{{ page.lang | default: page.language | default: 'en' }}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,6 +15,13 @@
 
   <!-- Canonical URL -->
   <link rel="canonical" href="{{ page.canonical_url | default: site.url | append: page.url }}">
+
+  <!-- hreflang for multilingual SEO -->
+  {% if page.hreflang %}
+  {% for lang in page.hreflang %}
+  <link rel="alternate" hreflang="{{ lang[0] }}" href="{{ site.url }}{{ lang[1] }}">
+  {% endfor %}
+  {% endif %}
 
   <!-- Open Graph -->
   <meta property="og:title" content="{{ page.title | default: site.title }}">
