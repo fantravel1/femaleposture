@@ -1,128 +1,63 @@
 ---
-title: "Frozen Shoulder | Adhesive Capsulitis in Women"
-description: "Guide on frozen shoulder in women. Learn about stages, treatment, and how posture affects recovery."
-keywords: ["frozen shoulder", "adhesive capsulitis", "shoulder stiffness", "shoulder loss of motion", "frozen shoulder women"]
-reading_time: 9
+title: "Frozen Shoulder | Adhesive Capsulitis and Posture"
+description: "Guide on frozen shoulder and posture. Learn how shoulder stiffness affects upper body movement patterns."
+keywords: ["frozen shoulder", "adhesive capsulitis", "shoulder stiffness", "shoulder mobility", "arm restriction"]
+reading_time: 7
 schema_type: Article
 last_modified: 2025-01-15
 ---
 
-# Frozen Shoulder (Adhesive Capsulitis)
+# Frozen Shoulder
 
-Frozen shoulder involves progressive stiffness and pain in the shoulder, with significant loss of range of motion. It's more common in women, especially between ages 40-60, and typically resolves but can take 1-3 years.
+Adhesive capsulitis causes progressive shoulder stiffness that significantly impacts daily activities and posture.
 
 ## Understanding Frozen Shoulder
 
-### The Condition
+### What Happens
 
-**What happens:**
-- Shoulder capsule thickens
-- Adhesions develop
-- Range of motion decreases progressively
-- Then gradually returns
+- Capsule becomes inflamed
+- Adhesions form
+- Progressive stiffness
+- Often three phases
 
-### Why Women Are Affected More
+### Posture Effects
 
-**Risk factors:**
-- More common in women
-- Peak in 40s-50s
-- Associated with hormonal changes
-- Diabetes increases risk
+- Compensation patterns develop
+- Hiking shoulder to reach
+- Trunk rotation used
+- Upper back stiffens
 
-### Three Stages
+## Phases
 
-**Freezing (2-9 months):**
-- Pain increases
-- Motion decreases progressively
-- Night pain common
+### Freezing Phase
 
-**Frozen (4-12 months):**
-- Pain may lessen
-- Stiffness maximum
-- Difficult to move
+**Characteristics:**
+- Pain increasing
+- Range decreasing
+- 2-9 months typically
 
-**Thawing (5-24 months):**
-- Motion gradually returns
-- Can take 1-2 years
-- Usually full recovery
+### Frozen Phase
 
-## The Posture Consideration
+**Characteristics:**
+- Less pain
+- Maximum stiffness
+- 4-12 months typically
 
-### During Frozen Shoulder
+### Thawing Phase
 
-**Posture may suffer:**
-- Protective guarding
-- Compensatory movements
-- Shoulder hiking
-- Upper back rounding
-
-### After Recovery
-
-**Address:**
-- Any postural habits that developed
-- Restore normal patterns
-- Prevent future problems
-
-## Treatment
-
-### During Freezing Stage
-
-**Focus on:**
-- Pain management
-- Gentle movement
-- Heat for comfort
-- Avoid forcing
-
-### During Frozen Stage
-
-**Approach:**
-- Gentle stretching
-- Maintain what motion exists
-- Patience
-- Physical therapy
-
-### During Thawing Stage
-
-**Progression:**
-- More active stretching
-- Strengthening as tolerated
-- Restore function
-- Posture work
-
-## Exercises
-
-### Pendulum Exercises
-
-**Gentle motion:**
-- Lean over, arm hangs
-- Small circles
-- Let gravity assist
-- 1-2 minutes
-
-### Passive Stretches
-
-**With assistance:**
-- External rotation with stick
-- Overhead stretch with other arm
-- Table slide stretch
-
-### Strengthening (When Ready)
-
-**As motion returns:**
-- Isometrics first
-- Progress to resistance
-- Full shoulder program
+**Characteristics:**
+- Gradual improvement
+- Range returns
+- 6-24 months typically
 
 ## Key Points
 
-1. **Takes time** — Usually 1-3 years
-2. **More common in women** — 40-60 age range
-3. **Gentle approach** — Don't force
-4. **Usually resolves** — Full recovery expected
-5. **Physical therapy helps** — Throughout stages
+1. **More common in women** — Especially 40-60 years
+2. **Self-limiting** — Usually resolves
+3. **Keep moving** — Within pain limits
+4. **Watch posture** — Avoid compensations
 
 ## Related Resources
 
-- [Shoulder Impingement](/conditions/shoulder-impingement/)
-- [Shoulder Exercises](/exercises/shoulder/)
-- [Rounded Shoulders](/conditions/rounded-shoulders/)
+- [Shoulder Pain](/conditions/shoulder-pain/)
+- [Shoulder Mobility](/exercises/shoulder-mobility/)

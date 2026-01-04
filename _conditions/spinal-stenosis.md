@@ -1,130 +1,75 @@
 ---
-title: "Spinal Stenosis | Narrowing of the Spine"
-description: "Complete guide on spinal stenosis in women. Learn about symptoms, causes, and how posture and exercise help manage this condition."
-keywords: ["spinal stenosis", "lumbar stenosis", "cervical stenosis", "spine narrowing", "stenosis symptoms"]
-reading_time: 10
+title: "Spinal Stenosis | Nerve Compression and Posture"
+description: "Guide on spinal stenosis and posture. Learn how spinal narrowing affects standing and walking."
+keywords: ["spinal stenosis", "nerve compression", "leg numbness", "back pain", "walking difficulty"]
+reading_time: 7
 schema_type: Article
 last_modified: 2025-01-15
 ---
 
 # Spinal Stenosis
 
-Spinal stenosis is narrowing of the spinal canal that can compress nerves. It commonly occurs in the lower back and neck, typically affecting adults over 50. Posture and positioning significantly influence symptoms.
+Spinal stenosis involves narrowing of the spinal canal, causing leg symptoms that affect standing and walking posture.
 
 ## Understanding Stenosis
 
 ### What Happens
 
-**The narrowing:**
-- Spinal canal becomes smaller
-- Can compress spinal cord or nerves
-- Usually gradual development
-- Degenerative changes contribute
+- Spinal canal narrows
+- Nerve compression occurs
+- Worse with standing
+- Better with flexion
 
-### Types
+### Posture Effects
 
-**Location-based:**
-- Lumbar stenosis (most common)
-- Cervical stenosis
-- Thoracic (rare)
-
-### Causes
-
-**Contributing factors:**
-- Osteoarthritis
-- Disc degeneration
-- Thickened ligaments
-- Bone spurs
-- Hereditary factors
+- Forward leaning preferred
+- Short walking distance
+- Need to sit frequently
+- Stooped posture develops
 
 ## Symptoms
 
-### Lumbar Stenosis
+### Typical Presentation
 
-**Typical presentation:**
-- Leg pain with walking (claudication)
-- Relief with sitting or bending forward
-- Numbness in legs
-- Weakness
-- Cramping
+**Common symptoms:**
+- Leg heaviness
+- Numbness or tingling
+- Better leaning forward
+- Relief with sitting
 
-**Shopping cart sign:**
-- Leaning forward relieves symptoms
-- Can walk further hunched over cart
-- Flexion opens spinal canal
+### Shopping Cart Sign
 
-### Cervical Stenosis
+**Characteristic finding:**
+- Can walk further with cart
+- Flexed position opens space
+- Standing tolerance reduced
 
-**Symptoms may include:**
-- Hand numbness
-- Balance problems
-- Arm weakness
-- Neck stiffness
-- Coordination issues
-
-## The Posture Connection
-
-### How Position Affects Stenosis
-
-**Flexion (bending forward):**
-- Opens spinal canal
-- Reduces symptoms
-- Why sitting helps
-- Why leaning forward helps
-
-**Extension (arching back):**
-- Closes spinal canal
-- May worsen symptoms
-- Standing upright harder
-- Walking problematic
-
-### Posture Strategies
-
-**For symptom management:**
-- Slight forward flexion when standing
-- Lumbar support when sitting
-- Avoid prolonged standing
-- Frequent position changes
-
-## Treatment
-
-### Conservative Management
-
-**First-line approaches:**
-- Physical therapy
-- Exercise program
-- Activity modification
-- Pain management
-- Weight management
+## Management
 
 ### Exercise Approach
 
 **Helpful exercises:**
 - Flexion-based movements
 - Core strengthening
-- Cycling (forward posture)
-- Swimming
-- Walking with forward lean
+- Stationary cycling
+- Pool walking
 
-### Lifestyle Modifications
+### Posture Strategies
 
-**Daily adaptations:**
-- Use shopping cart when walking
-- Sit to rest frequently
-- Lean on counters when cooking
+**Management tips:**
+- Frequent sitting breaks
+- Use of walker if helpful
 - Avoid prolonged standing
-- Use cane if helpful
+- Stay active within limits
 
 ## Key Points
 
-1. **Position matters** — Flexion opens canal
-2. **Exercise helps** — Appropriate activities
-3. **Walking challenge** — May need aids
-4. **Conservative first** — Surgery is backup
-5. **Manageable** — Most live well with stenosis
+1. **Flexion helps** — Opens spinal canal
+2. **Keep moving** — Within symptom limits
+3. **Core strength** — Supports spine
+4. **Walking aids** — May extend distance
 
 ## Related Resources
 
 - [Lower Back Pain](/conditions/lower-back-pain/)
-- [Sciatica](/conditions/sciatica/)
-- [Posture for Seniors](/life-stages/seniors/)
+- [Core Exercises](/exercises/core-strengthening/)
