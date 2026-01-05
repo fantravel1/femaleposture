@@ -5,6 +5,7 @@ keywords: ["handbag posture", "purse carrying", "shoulder bag", "crossbody bag",
 reading_time: 7
 schema_type: Article
 last_modified: 2025-01-15
+permalink: /activities/handbag-posture/
 ---
 
 # Handbag Carrying Posture

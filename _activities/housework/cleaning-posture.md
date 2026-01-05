@@ -11,6 +11,7 @@ subcategory: "housework"
 reading_time: 7
 difficulty: "beginner"
 schema_type: "Article"
+permalink: /activities/housework-posture/
 ---
 
 # Posture During Housework and Cleaning

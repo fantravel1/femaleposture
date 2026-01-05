@@ -11,6 +11,7 @@ subcategory: "si-joint"
 reading_time: 14
 difficulty: "intermediate"
 schema_type: "MedicalCondition"
+permalink: /conditions/si-joint/
 ---
 
 # SI Joint Dysfunction in Women: Complete Guide
