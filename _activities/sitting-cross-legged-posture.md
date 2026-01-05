@@ -5,6 +5,7 @@ keywords: ["cross-legged sitting", "floor sitting", "criss-cross position", "sea
 reading_time: 6
 schema_type: Article
 last_modified: 2025-01-15
+permalink: /activities/crossing-legs-posture/
 ---
 
 # Sitting Cross-Legged Posture

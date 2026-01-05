@@ -10,6 +10,7 @@ category: "conditions"
 reading_time: 10
 difficulty: "intermediate"
 schema_type: "Article"
+permalink: /conditions/pelvic-floor/
 ---
 
 # Pelvic Floor and Posture: The Hidden Foundation

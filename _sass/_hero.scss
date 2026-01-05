@@ -112,6 +112,110 @@
   }
 }
 
+// -----------------------------------------------------------------------------
+// Hero Grid Layout (responsive text + image layout)
+// -----------------------------------------------------------------------------
+
+.hero-grid {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-8;
+  align-items: center;
+
+  @media (min-width: $breakpoint-md) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: $spacing-10;
+    align-items: center;
+  }
+
+  @media (min-width: $breakpoint-lg) {
+    gap: $spacing-12;
+  }
+}
+
+.hero-grid--reverse {
+  @media (min-width: $breakpoint-md) {
+    .hero-grid-image {
+      order: -1;
+    }
+  }
+}
+
+.hero-grid-content {
+  text-align: center;
+
+  @media (min-width: $breakpoint-md) {
+    text-align: left;
+  }
+}
+
+.hero-grid-image {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+
+  @media (min-width: $breakpoint-md) {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: $radius-xl;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Section Grid Layout (for content sections with images)
+// -----------------------------------------------------------------------------
+
+.section-grid {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-8;
+  align-items: flex-start;
+
+  @media (min-width: $breakpoint-md) {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: $spacing-10;
+    align-items: flex-start;
+  }
+
+  @media (min-width: $breakpoint-lg) {
+    gap: $spacing-12;
+  }
+}
+
+.section-grid--equal {
+  @media (min-width: $breakpoint-md) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.section-grid-content {
+  min-width: 0;
+}
+
+.section-grid-image {
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+
+  @media (min-width: $breakpoint-md) {
+    max-width: 320px;
+    margin: 0;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: $radius-xl;
+  }
+}
+
 // Decorative elements
 .hero-decoration {
   position: absolute;

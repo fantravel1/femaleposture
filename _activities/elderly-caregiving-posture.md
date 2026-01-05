@@ -5,6 +5,7 @@ keywords: ["caregiving posture", "elderly care", "caregiver form", "patient assi
 reading_time: 8
 schema_type: Article
 last_modified: 2025-01-15
+permalink: /activities/caregiver-posture/
 ---
 
 # Elderly Caregiving Posture

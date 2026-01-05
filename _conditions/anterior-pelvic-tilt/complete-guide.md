@@ -11,6 +11,7 @@ subcategory: "anterior-pelvic-tilt"
 reading_time: 12
 difficulty: "beginner"
 schema_type: "MedicalCondition"
+permalink: /conditions/anterior-pelvic-tilt/
 ---
 
 # Anterior Pelvic Tilt in Women: Why We're Built Differently
