@@ -449,6 +449,18 @@
   }
 }
 
+.hub-card__cta {
+  display: inline-block;
+  font-size: $font-size-sm;
+  font-weight: $font-weight-medium;
+  color: $color-primary;
+  transition: transform $transition-fast;
+
+  .hub-card:hover & {
+    transform: translateX(4px);
+  }
+}
+
 // -----------------------------------------------------------------------------
 // Badges / Tags
 // -----------------------------------------------------------------------------
