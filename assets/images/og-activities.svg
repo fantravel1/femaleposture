@@ -1,0 +1,35 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="url(#bg-gradient-act)"/>
+
+  <!-- Activities icon - desk/daily life -->
+  <g transform="translate(850, 150)">
+    <!-- Desk -->
+    <rect x="20" y="200" width="200" height="10" fill="#E07A5F" opacity="0.3"/>
+    <rect x="40" y="210" width="10" height="100" fill="#E07A5F" opacity="0.3"/>
+    <rect x="190" y="210" width="10" height="100" fill="#E07A5F" opacity="0.3"/>
+    <!-- Person at desk -->
+    <circle cx="120" cy="80" r="25" stroke="#E07A5F" stroke-width="4" fill="none"/>
+    <path d="M120 105 L120 180" stroke="#E07A5F" stroke-width="4" stroke-linecap="round"/>
+    <path d="M120 130 L80 160" stroke="#E07A5F" stroke-width="4" stroke-linecap="round"/>
+    <path d="M120 130 L160 160" stroke="#E07A5F" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Logo -->
+  <circle cx="80" cy="80" r="35" stroke="#E07A5F" stroke-width="3" fill="#FFFFFF"/>
+  <path d="M80 45C80 45 68 60 68 80C68 100 80 115 80 115" stroke="#E07A5F" stroke-width="3" stroke-linecap="round"/>
+  <path d="M80 45C80 45 92 60 92 80C92 100 80 115 80 115" stroke="#E07A5F" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="80" cy="52" r="6" fill="#E07A5F"/>
+
+  <!-- Text -->
+  <text x="140" y="90" font-family="Georgia, serif" font-size="36" fill="#6B7280">FemalePosture.com</text>
+  <text x="80" y="300" font-family="Georgia, serif" font-size="72" font-weight="bold" fill="#1F2937">Daily Activities</text>
+  <text x="80" y="380" font-family="system-ui, sans-serif" font-size="36" fill="#6B7280">Maintain good posture in everyday tasks</text>
+  <text x="80" y="550" font-family="system-ui, sans-serif" font-size="24" fill="#9CA3AF">femaleposture.com/activities</text>
+
+  <defs>
+    <linearGradient id="bg-gradient-act" x1="0" y1="0" x2="1200" y2="630">
+      <stop offset="0%" stop-color="#FDF8F6"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+  </defs>
+</svg>

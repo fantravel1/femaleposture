@@ -1,0 +1,29 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <rect width="1200" height="630" fill="url(#bg-gradient)"/>
+
+  <!-- Decorative spine curve -->
+  <path d="M900 80C900 80 850 200 850 315C850 430 900 550 900 550" stroke="#E07A5F" stroke-width="8" stroke-linecap="round" opacity="0.3"/>
+  <path d="M950 80C950 80 900 200 900 315C900 430 950 550 950 550" stroke="#E07A5F" stroke-width="8" stroke-linecap="round" opacity="0.2"/>
+  <path d="M1000 80C1000 80 950 200 950 315C950 430 1000 550 1000 550" stroke="#E07A5F" stroke-width="8" stroke-linecap="round" opacity="0.1"/>
+
+  <!-- Logo icon -->
+  <circle cx="120" cy="315" r="50" stroke="#E07A5F" stroke-width="4" fill="#FFFFFF"/>
+  <path d="M120 265C120 265 105 290 105 315C105 340 120 365 120 365" stroke="#E07A5F" stroke-width="4" stroke-linecap="round"/>
+  <path d="M120 265C120 265 135 290 135 315C135 340 120 365 120 365" stroke="#E07A5F" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="120" cy="275" r="8" fill="#E07A5F"/>
+
+  <!-- Site name -->
+  <text x="200" y="290" font-family="Georgia, serif" font-size="64" font-weight="bold" fill="#1F2937">FemalePosture</text>
+  <text x="200" y="360" font-family="system-ui, sans-serif" font-size="32" fill="#6B7280">Evidence-based posture guidance for women</text>
+
+  <!-- URL -->
+  <text x="200" y="550" font-family="system-ui, sans-serif" font-size="24" fill="#9CA3AF">femaleposture.com</text>
+
+  <defs>
+    <linearGradient id="bg-gradient" x1="0" y1="0" x2="1200" y2="630">
+      <stop offset="0%" stop-color="#FDF8F6"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+  </defs>
+</svg>
